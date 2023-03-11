@@ -1,5 +1,5 @@
 :root{
-    --color-cadetblue: #5f9ea0;
+    --color-cadetblue: #547172;
     --color-darkcadetblue: #2d6567;
 }
 body{
@@ -16,13 +16,7 @@ header{
     align-items: center;
     box-shadow: 1px 1px 3px var(--color-darkcadetblue);
 }
-a{
-    text-decoration: none;
-    color: black;
-    
-    
-    
-}
+
 nav li{
     list-style: none;
     font-size: 20px;
@@ -33,6 +27,26 @@ ul{
     display: flex; 
     flex-direction: row;
     gap: 40px;
+}
+.navigation a{
+    transition: 1s;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: aliceblue;
+}
+.content{
+    text-align: center;
+    padding-top: 10px;
+    transition: 0.5s;
+    height: 20px;
+}
+.btn_icon_header{
+    /*display: none;*/
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
 }
 /*
 input{
