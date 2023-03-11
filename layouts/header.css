@@ -4,4 +4,20 @@ body{
 }
 header{
     background-color: cadetblue;
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+nav li{
+    list-style: none;
+    align-items: center;
+    
+}
+nav{
+    
 }
