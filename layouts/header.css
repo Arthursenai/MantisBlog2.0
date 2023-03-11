@@ -1,23 +1,50 @@
+:root{
+    --color-cadetblue: #5f9ea0;
+    --color-darkcadetblue: #2d6567;
+}
 body{
     margin: 0;
     font-family: sans-serif;
+    font-weight: bold;
 }
 header{
-    background-color: cadetblue;
+    background-color: var(--color-cadetblue);
     display: flex;
-    
+    justify-content: space-between;
+    padding: 0 10%;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 1px 1px 3px var(--color-darkcadetblue);
 }
 a{
     text-decoration: none;
     color: black;
     
     
+    
 }
 nav li{
     list-style: none;
-    align-items: center;
+    font-size: 20px;
+
     
 }
-nav{
+ul{ 
+    display: flex; 
+    flex-direction: row;
+    gap: 40px;
+}
+/*
+input{
+    border-radius: 20px;
+    border-style: none;
+    font-size: 20px;
     
 }
+input::placeholder{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+*/
