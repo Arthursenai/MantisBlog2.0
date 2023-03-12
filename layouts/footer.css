@@ -1,4 +1,8 @@
-p {
+footer{
+    margin-bottom: -5px;
+    width: 100%;
+    background-color: black;
+    bottom: 0;
 
 }
 
@@ -14,17 +18,12 @@ p {
 
 body {
     margin: 0;
-    margin-top: 540px;
-    margin-left: 15px;
     padding: 0;
-    background-color: cadetblue;
     color: white;
-    position: fixed;
+    font-family: sans-serif;
 }
 
-#logo_contato_feedback {
-    padding: 0;
-}
+
 
 #instagram_linktree {
     justify-content: space-between 60px;
