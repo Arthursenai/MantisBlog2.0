@@ -34,21 +34,24 @@ ul{
     color: white;
     text-decoration: none;
     position: relative;
-
+   
 }
 .navigation li:hover{
     content: " ";
     width: 100%;
     height: 4px;
     background-color: blue;
-    position: relative;
-    top: 0;
+    margin: 0;
+    bottom: ;
+   
+
 }
 #home{
 
 }
 #categories{
-
+margin: 0;
+padding: 0;
 }
 #sobrenos{
 
