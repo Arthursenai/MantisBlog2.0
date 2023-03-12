@@ -14,7 +14,7 @@ header{
     padding: 0 10%;
     flex-direction: row;
     align-items: center;
-    box-shadow: 1px 1px 3px var(--color-grey);
+    box-shadow: 1px 1px 4px var(--color-grey);
 }
 
 nav li{
@@ -27,30 +27,34 @@ ul{
     display: flex; 
     flex-direction: row;
     gap: 40px;
+    margin: 0px 0px;
+    padding-left: 0;
 }
-.navigation  a{
+ .navigation a{
     color: white;
     text-decoration: none;
+    position: relative;
+
 }
-.navigation  a::after{
+.navigation li:hover{
     content: " ";
-    width: 0px;
+    width: 100%;
     height: 4px;
     background-color: blue;
+    position: relative;
     top: 0;
-    left: 0;
-    position: fixed;
-    transition: width 0.6s;
 }
-.navigation ul a:hover::after{
-    width: 30px;
+#home{
+
 }
-.content{
-    text-align: center;
-    padding-top: 10px;
-    transition: 0.5s;
-    height: 20px;
+#categories{
+
 }
+#sobrenos{
+
+}
+
+
 .btn_icon_header{
     display: none;
     background-color: transparent;
