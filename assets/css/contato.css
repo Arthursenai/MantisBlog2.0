@@ -64,3 +64,13 @@ form{
     /* position relative para fazer a criação da linha de baixo do h1*/
     position:relative
 }
+/*mudança da linha de baixo e tamanho*/
+#form_header h1::before{
+    position: absolute;
+    content: '';
+    width: 40%;
+    background-color:var(--color-purple-50) ;
+    height: 2px;
+    bottom: 3px;
+    border-radius: 5px;
+}
