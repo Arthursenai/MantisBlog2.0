@@ -58,3 +58,9 @@ form{
     /*  justify content serve para o espaçamento ,fazendo com que um fique de um lado e o outro de outro*/
     justify-content: space-between;
 }
+
+#form_header h1{
+    font-size: 30px;
+    /* position relative para fazer a criação da linha de baixo do h1*/
+    position:relative
+}
