@@ -7,8 +7,12 @@ section{
 #h01{
     text-align: center;
 }
-h2{
+h1{
     text-align: center;
+    
+}
+h2{
+    margin-left: 5%;
 }
 img{
     margin-left: 25%;
