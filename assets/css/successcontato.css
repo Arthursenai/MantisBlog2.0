@@ -3,3 +3,9 @@ body {
     margin: auto;
     background-color: whitesmoke;
 }
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
