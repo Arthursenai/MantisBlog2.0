@@ -1,0 +1,9 @@
+#secimg{
+    background-color: whitesmoke;
+    gap: 40px;
+    width: 90%;
+}
+p{
+    color: black;
+    display: flex;
+}
