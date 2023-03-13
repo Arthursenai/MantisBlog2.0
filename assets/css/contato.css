@@ -7,20 +7,29 @@
     --color-dark-100:#312d37;
     --color-dark-900:#000;
 
-    --color-dark-50:#7c3aed;
-    --color-dark-100:#a855f7;
-    --color-dark-200:#bf46ef;
+    --color-purple-50:#7c3aed;
+    --color-purple-100:#a855f7;
+    --color-purple-200:#bf46ef;
 
-    --color-grandient:linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
+    --color-gradient:linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
 
 }
-
+/*estilização do form*/
 form{
     font-family: 'Lucida Sans';
     margin: 0;
     padding: 0;
-
-}
-#container{
     
+}
+
+/*estilização do container*/
+#container{
+    height:100%;
+    width: 100%;
+    /*backgrond:var para linkar o gradient color*/
+    background: var(--color-gradient);
+    display: flex;
+    /* para centralização de itens*/
+    align-items: center;
+    justify-content: center;
 }
