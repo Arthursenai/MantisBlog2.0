@@ -17,7 +17,7 @@ body {
     margin-top: 540px;
     margin-left: 15px;
     padding: 0;
-    background-color: cadetblue;
+    background-color:blue;
     color: white;
     position: fixed;
 }
@@ -28,7 +28,7 @@ body {
 
 #instagram_linktree {
     justify-content: space-between 60px;
-    padding-left: 500px;
+    padding-left: 400px;
     display: flex;
 }
 
