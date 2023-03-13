@@ -1,6 +1,6 @@
 body {
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='128'%3E%3Crect x='0' y='0' width='64' height='64' fill='%23ffffff'/%3E%3Crect x='64' y='64' width='64' height='64' fill='%23ffffff'/%3E%3Crect x='0' y='64' width='64' height='64' fill='%23ff0000'/%3E%3Crect x='64' y='0' width='64' height='64' fill='%23ff0000'/%3E%3C/svg%3E") repeat;
-    
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='128'%3E%3Crect x='0' y='0' width='64' height='64' fill='%23fffff'/%3E%3Crect x='64' y='64' width='64' height='64' fill='%23fffff'/%3E%3Crect x='0' y='64' width='64' height='64' fill='%23800080'/%3E%3Crect x='64' y='0' width='64' height='64' fill='%23800080'/%3E%3C/svg%3E") repeat;
+    color: white;
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -12,6 +12,8 @@ body {
 
 #art01 {
     display: flex;
+    padding: 20px;
+    border:solid purple 5px;
 }
 
 #sec01 {
@@ -19,14 +21,20 @@ body {
     margin: auto;
     border-radius: 10px;
     box-shadow: 0px 2px 9px 4px #000;
-    background-color: whitesmoke;
+    background-color:black;
+    width: 43%;
+    height: 33%;
+    border:solid purple 5px;
 }
 
 #sec02 {
     margin: auto;
     border-radius: 10px;
     box-shadow: 0px 2px 9px 4px #000;
-    background-color: whitesmoke;
+    background-color:black;
+    width: 43%;
+    height: 33%;
+    border:solid purple 5px;
 }
 
 h2 {
@@ -45,8 +53,13 @@ span{
 #art02{
     border-radius: 10px;
     box-shadow: 0px 2px 9px 4px #000;
-    background-color: whitesmoke;
-    margin: 2%;
+    background-color:black;
+    margin-bottom: 2%;
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 0;
+    border:solid purple 5px;
 }
 div{
     display: flex;
@@ -54,7 +67,7 @@ div{
 #img02{
     margin: auto;
     padding-left: 100px;
-    margin-left: -19px;
+    margin-left: -79px;
 }
 p{
     margin-left: 10px;
@@ -64,8 +77,19 @@ p{
 #sec03{
     border-radius: 10px;
     box-shadow: 0px 2px 9px 4px #000;
-    background-color: whitesmoke;
+    background-color:black;
     width: 20%;
     margin: auto;
+    border:solid purple 5px;
+}
+main{
+    border-radius: 10px;
+    box-shadow: 0px 2px 9px 4px #000;
+    background-color:black;
+    margin: 5%;
+    margin-top: 20px;
+    margin-bottom: 2%;
+    padding: 2%;
+    border:solid purple 5px;
 }
 
