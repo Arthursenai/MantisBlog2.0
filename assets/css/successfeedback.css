@@ -31,3 +31,9 @@ form {
 #img1 {
     margin: auto;
 } 
+#section1 {
+    background: #ccc;
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
