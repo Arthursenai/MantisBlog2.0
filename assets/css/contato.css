@@ -13,5 +13,14 @@
 
     --color-grandient:linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
 
+}
 
+form{
+    font-family: 'Lucida Sans';
+    margin: 0;
+    padding: 0;
+
+}
+#container{
+    
 }
