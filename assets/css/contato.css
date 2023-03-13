@@ -108,5 +108,14 @@ form{
     font-size: 18px;
     color: var(--color-dark-900);
 }
-
-in
+ /* mudança do input para trazer a transparencia*/
+.input-field input{
+    border: none;
+    background-color: transparent;
+    width: 260px;
+    font-size: 15px;
+    padding: 0px 5px;
+}
+.input-field input:focus{
+    outline: none;
+}
