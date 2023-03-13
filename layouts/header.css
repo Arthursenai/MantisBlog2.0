@@ -27,7 +27,6 @@ ul{
     display: flex; 
     flex-direction: row;
     gap: 40px;
-    margin: 0px 0px;
     padding-left: 0;
 }
  .navigation a{
