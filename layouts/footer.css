@@ -29,6 +29,7 @@ body {
 #instagram_linktree {
     justify-content: space-between 60px;
     padding-left: 500px;
+    display: flex;
 }
 
 #p_direitos {
