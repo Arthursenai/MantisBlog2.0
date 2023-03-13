@@ -19,5 +19,13 @@ p{
     color: black;
     margin-left: 2%;
 }
-
+#secimg2{
+    background-color: whitesmoke;
+    gap: 40px;
+    border-radius: 10px;
+    margin: 5px;
+    border-left-style: solid;
+    border-left-color: blue ;
+    border-left-width: 7px;
+}
     
