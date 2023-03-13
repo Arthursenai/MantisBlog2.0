@@ -1,13 +1,10 @@
-p {
-
-}
 
 #container {
     display: flex;
 }
 
 #contato_feedback {
-    display: table-column;
+    display: flex;
     padding-left: 40px;
     text-align: left;
 }   
@@ -15,7 +12,7 @@ p {
 body {
     margin: 0;
     padding: 0;
-    background-color:blue;
+    background-color:white;
     color: white;
     position: fixed;
     bottom: 0;
@@ -42,9 +39,11 @@ a{
 footer{
     bottom: 0;
     position: fixed;
-    width: 90%;
+    width: 100%;
     text-align: center;
     left: 0;
+    background-color:black;
+    height: 80px;
     
 }
 
