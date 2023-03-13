@@ -1,31 +1,17 @@
-form {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: auto;
-}
 
-body {
-    margin: 0;
-    margin-bottom: 5px;
-    background-color: whitesmoke;
-}
+/*criação de variaveis para a organização das cores*/
+:root{
+    --color-light-50:#f8fafc;
 
-h1 {
-    text-align: center;
-    font-family: sans-serif;
-    color: black;
-}
+    --color-dark-50:#797984;
+    --color-dark-100:#312d37;
+    --color-dark-900:#000;
 
-label {
-    margin-top: 1%;
-    color: black;
-}
+    --color-dark-50:#7c3aed;
+    --color-dark-100:#a855f7;
+    --color-dark-200:#bf46ef;
 
-#sub1 {
-    background-color: blue;
-    width: 30%;
-    margin: auto;
-    border-radius: 10px;
-    margin-top: 2%;
+    --color-grandient:linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
+
+
 }
