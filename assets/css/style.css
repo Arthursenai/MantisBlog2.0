@@ -30,7 +30,7 @@ p{
     color: black;
     margin-left: 2%;
 }
-#secimg2{
+#artimg2{
     background-color: whitesmoke;
     gap: 40px;
     border-radius: 10px;
@@ -40,10 +40,13 @@ p{
     border-left-width: 7px;
 
 }
-    #not1{
-        display: flex;
-    }
+    
     .imgnot{
         width:150px;
         height: 100px;
+    }
+    a{
+        text-decoration: none;
+        text-align: right;
+        color: white;
     }
