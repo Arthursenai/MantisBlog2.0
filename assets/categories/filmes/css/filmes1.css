@@ -1,3 +1,19 @@
 section{
     background-color: darkcyan;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#h01{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+img{
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+.section001{
+    margin-top: 9%;
+    margin-bottom: 10%;
 }
