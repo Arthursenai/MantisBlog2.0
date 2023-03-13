@@ -31,3 +31,10 @@ form {
 #img1 {
     margin: auto;
 }
+
+#if2 {
+    width: 100%;
+    margin-bottom: -5px;
+    position: fixed;
+    bottom: 0;
+}
