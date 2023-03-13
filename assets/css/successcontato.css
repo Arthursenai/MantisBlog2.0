@@ -2,6 +2,7 @@ body {
     text-align: center;
     margin: auto;
     background-color: white;
+    font-family: arial;
 }
 
 form {
@@ -24,16 +25,20 @@ form {
     margin: auto;
     margin-top: 15px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px 9px #373737;
+    color: white;
+    background-color: black;
+
 }
 
 #submit1:hover {
-    background-color: purple;
-    color: white;
+    color: violet;
     opacity: 10px;
 }
 
 #img1 {
     margin: auto;
+    padding-top: 10px;
 }
 
 #section1 {
@@ -41,9 +46,13 @@ form {
     width: 30%;
     display: flex;
     margin: auto;
-    border-radius: 70px;
+    border-radius: 50px;
     border-left-style: solid;
     border-left-color: purple;
-    border-left-width: 5px;
+    border-left-width: 10px;
 
+
+}
+p {
+    color: white;
 }
