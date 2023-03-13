@@ -46,3 +46,18 @@ span{
     background-color: whitesmoke;
     margin: 2%;
 }
+div{
+    display: flex;
+}
+#img02{
+    margin: auto;
+    padding-left: 100px;
+    margin-left: -19px;
+}
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+main{
+}
