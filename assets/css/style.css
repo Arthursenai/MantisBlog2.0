@@ -38,9 +38,9 @@ p{
     border-radius: 10px;
     margin: 5px;
     border-left-style: solid;
-    border-left-color: rgb(151, 20, 151) ;
     border-left-width: 7px;
-
+    border-left-color:background-image: radial-gradient(circle at 100% 0%, #eb47ff 0, #c32ff7 25%, #910bea 50%, #5100dd 75%, #0000d3 100%);
+    
 }
     
     .imgnot{
