@@ -1,9 +1,22 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #secimg{
     background-color: whitesmoke;
     gap: 40px;
-    width: 90%;
+    padding-bottom: 300px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+   
 }
 p{
     color: black;
     display: flex;
+    margin: 2px;
+}
+article{
+    border-left-style: solid;
+    border-left-color: blue ;
 }
