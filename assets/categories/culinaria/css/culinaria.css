@@ -1,8 +1,32 @@
-body{
-    background-color: whitesmoke;
+body {
+    background-color: rgb(255, 200, 99);
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
-#ha1{
+
+#ha1 {
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+}
+
+#art01 {
+    display: flex;
+}
+
+#sec01 {
+    text-align: justify;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 2px 9px 4px #000;
+    background-color: whitesmoke;
+}
+
+#sec02 {
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 2px 9px 4px #000;
+    background-color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
 }
