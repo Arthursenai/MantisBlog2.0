@@ -120,7 +120,7 @@ form{
 }
 
 
-
+/*alteração no botão*/
  .myButton {
 	background: var(--color-gradient);
 	background-color:#dfbdfa;
@@ -144,7 +144,7 @@ form{
 	position:relative;
 	top:1px;
 }
-
+/* mudança para dark*/
 .dark#login_form{
     color: var(--color-light-50);
     background-color: var(--color-dark-100);
