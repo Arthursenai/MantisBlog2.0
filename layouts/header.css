@@ -40,7 +40,8 @@ ul{
     content: " ";
     width: 100%;
     height: 4px;
-    background-color: blue;
+    background-image:
+     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
     margin: 0;
     bottom: ;
    
