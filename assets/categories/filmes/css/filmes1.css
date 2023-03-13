@@ -1,5 +1,5 @@
 section{
-    background-color: rgb(187, 187, 187);
+    background-color: black;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10px;
@@ -29,4 +29,12 @@ p{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+}
+#img09{
+    border-radius: 10px;
+    margin-left: 5%;
+}
+#h02{
+    
 }
