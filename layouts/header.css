@@ -1,6 +1,7 @@
 :root{
     --color-dark: #000000;
     --color-grey: #3a3a3a;
+    --color-purple:
 }
 body{
     margin: 0;
@@ -20,45 +21,31 @@ header{
 nav li{
     list-style: none;
     font-size: 20px;
-
     
 }
-ul{ 
-    display: flex; 
-    flex-direction: row;
-    gap: 40px;
-    padding-left: 0;
-}
- .navigation a{
-    color: white;
-    text-decoration: none;
-    position: relative;
+.navigation ul{
+    display: flex;
    
 }
-
-.navigation li:hover{
-    height: 4px;
-    background-image: linear-gradient(rgb(125, 125, 232), rgb(8, 8, 72) );
-    margin: 0;   
-
+.navigation a{
+    text-decoration: none;
+    color: white;
 }
-#home{
-
+.navigation a:hover{
+    border-bottom: purple solid 5px;
+    border-radius: 3px;
+    transition: 0.4s;
 }
-#categories{
-margin: 0;
-padding: 0;
-}
-#sobrenos{
-
-}
-
 
 .btn_icon_header{
     display: none;
     background-color: transparent;
     border: none;
     color: whitesmoke;
+}
+#categories{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 /*
 input{
