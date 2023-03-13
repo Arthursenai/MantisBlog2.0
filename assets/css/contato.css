@@ -78,7 +78,6 @@ form{
 #mode_icon{
     cursor: pointer;
     font-size: 20px;
-
 }
 /* mudaças nos inputs*/
 #inputs{
@@ -145,3 +144,19 @@ form{
 	position:relative;
 	top:1px;
 }
+
+.dark#login_form{
+    color: var(--color-light-50);
+    background-color: var(--color-dark-100);
+}
+.dark#login_form .input-field input,
+.dark#login_form .input-field input i{
+    color: var(--color-light-50);
+
+}
+.dark#login_form .input-field input,
+.dark#login_form .input-field i{
+    color: var(--color-light-50s);
+}
+
+
