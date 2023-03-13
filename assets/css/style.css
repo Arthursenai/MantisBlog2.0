@@ -12,18 +12,20 @@ body{
     margin-bottom: -5px;
 }
 #secimg{
-    background-color: whitesmoke;
+    background-color: black;
     gap: 40px;
     padding-bottom: 300px;
     border-radius: 10px;
     margin: 5px;
     border-left-style: solid;
-    border-left-color: blue ;
+    border-left-color: rgb(151, 20, 151) ;
     border-left-width: 7px;
     display: flex;
 }
    h1{
-    margin-left: 1%;
+    margin: 2%;
+    color: white;
+  
    }
 
 p{
@@ -31,12 +33,12 @@ p{
     margin-left: 2%;
 }
 #artimg2{
-    background-color: whitesmoke;
+    background-color: black;
     gap: 40px;
     border-radius: 10px;
     margin: 5px;
     border-left-style: solid;
-    border-left-color: blue ;
+    border-left-color: rgb(151, 20, 151) ;
     border-left-width: 7px;
 
 }
@@ -44,9 +46,10 @@ p{
     .imgnot{
         width:150px;
         height: 100px;
+        padding-right: 5px;
     }
     a{
         text-decoration: none;
-        text-align: right;
         color: white;
+        margin: 2%;
     }
