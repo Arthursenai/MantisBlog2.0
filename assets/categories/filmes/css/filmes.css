@@ -12,9 +12,36 @@ section{
     margin-top: 8%;
     background-color: rgb(91, 119, 119);
     margin-right: 10%;
+    border-radius: 10px;
 }
+#img01{
+    border-radius: 10px;
+}
+.container001{
+    display: flex;
+}
+
+#img02{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+/*
+.section01{
+    transition: 2s; 
+}
+.section01:houver{
+    transform: scale(7.1); 
+}
+*/
 h2{
-    margin-top: 2%;
-    margin-left: 3%;
+    margin-top: 7%;
+    margin-left: 10%;
+
+}
+img{
+    margin-left: 20%;
+    margin-bottom: 10%;
+    border-color: black;
     
 }
+
