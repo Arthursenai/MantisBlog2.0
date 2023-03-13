@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+}
+#h2 {
+    color: white;
+}
+
+#submit1 {
+    width: 30%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#submit1:hover {
+    background-color: purple;
+    color: white;
+    opacity: 10px;
+}
+
+#img1 {
+    margin: auto;
+} 
+#section1 {
+    background: black;
+    width: 30%;
+    display: flex;
+    margin: auto;
+    border-radius: 70px;
+    border-left-style: solid;
+    border-left-color: purple;
+    border-left-width: 5px;
+}
