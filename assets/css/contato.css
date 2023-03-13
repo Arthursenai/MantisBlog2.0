@@ -51,3 +51,10 @@ form{
     height: fit-content;
 
 }
+
+#form_header{
+    display: flex;
+    align-items: center;
+    /*  justify content serve para o espaçamento ,fazendo com que um fique de um lado e o outro de outro*/
+    justify-content: space-between;
+}
