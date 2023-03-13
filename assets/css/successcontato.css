@@ -14,3 +14,10 @@ form {
 .container {
     margin: auto;
 }
+
+#submit1 {
+    width: 30%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
