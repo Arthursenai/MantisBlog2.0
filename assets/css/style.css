@@ -1,7 +1,16 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
 }
-
+#header{
+    width: 100%;
+    margin-top: 0;
+}
+#footer{
+    width: 100%;
+    bottom: 0;
+    margin-bottom: -5px;
+}
 #secimg{
     background-color: whitesmoke;
     gap: 40px;
@@ -13,7 +22,9 @@ body{
     border-left-width: 7px;
     display: flex;
 }
-   
+   h1{
+    margin-left: 1%;
+   }
 
 p{
     color: black;
