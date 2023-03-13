@@ -1,0 +1,7 @@
+body{
+    display: flex;
+    margin: auto;
+}
+.container {
+    background: skyblue;
+}
