@@ -38,5 +38,12 @@ p{
     border-left-style: solid;
     border-left-color: blue ;
     border-left-width: 7px;
+
 }
-    
+    #not1{
+        display: flex;
+    }
+    .imgnot{
+        width:150px;
+        height: 100px;
+    }
