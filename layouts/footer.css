@@ -4,7 +4,7 @@
 }
 
 #contato_feedback {
-    display: flex;
+    
     padding-left: 40px;
     text-align: left;
 }   
@@ -27,10 +27,12 @@ body {
     justify-content: space-between 60px;
     padding-left: 400px;
     display: flex;
+    padding-top: 30px;
 }
 
 #p_direitos {
-    padding-left: 400px;
+    padding-left: 300px;
+    padding-top: 20px;
 }
 a{
     text-decoration: none;
