@@ -37,7 +37,7 @@ ul li a::after{
     content: " ";
     width: 0%;
     height: 4px;
-    background-color: #8a008a;
+    background-image: linear-gradient(270deg, #e1009d 0, #c6009a 16.67%, #a90094 33.33%, #8a008a 50%, #6b037e 66.67%, #4f0673 83.33%, #330869 100%);
     border-radius: 8px;
     top: 24px;
     left: 0;
