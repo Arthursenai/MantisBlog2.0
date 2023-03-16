@@ -50,16 +50,18 @@ body{
     margin: 2%;
     border-left-style: solid;
     border-left-color:transparent;
-    width: 100%;
+    height: 600px;
     padding-bottom: 100px;
 }
     #artimgback{
+        margin: auto;
     border-radius: 10px;
-    margin: 1px;
     margin-bottom: 0px;
-    width: 48%;
+    width: 90%;
+    height: 740px;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
     }
+    /*
     #artimg22{
         background-color: black;
         gap: 40px;
@@ -79,6 +81,7 @@ body{
         width: 48%;
         background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
         }
+        */
     .imgnot{
         width:150px;
         height: 100px;
