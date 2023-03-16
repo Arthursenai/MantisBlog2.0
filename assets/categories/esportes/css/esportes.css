@@ -1,7 +1,7 @@
 body{
+    background-color: rgb(5, 5, 5);
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
-    background-color: rgb(33, 31, 31);
     color: white;
 }
 #header{
@@ -51,6 +51,8 @@ body{
     border-left-style: solid;
     border-left-color:transparent;
    height: 700px;
+ 
+ 
   
 }
     #artimgback{
@@ -72,6 +74,7 @@ body{
    height: 700px;
     }
         #artimgback22{
+          
           margin: auto;
     border-radius: 10px;
     width: 90%;
@@ -139,3 +142,6 @@ body{
         display: flex;
     
     }
+#footer{
+    width: 100%;
+}
