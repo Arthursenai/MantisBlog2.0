@@ -5,6 +5,9 @@ body {
     color: white;
 }
 
+#maisfamosos{
+    text-align: center;
+}
 #header {
     width: 100%;
     margin-top: 0;
