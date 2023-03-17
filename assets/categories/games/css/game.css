@@ -5,11 +5,13 @@ body {
     color: white;
 }
 
-#maisfamosos {
+#recomendados {
     text-align: center;
 }
 
-.displayflex {}
+.displayflex {
+    text-align: center;
+}
 
 #header {
     width: 100%;
