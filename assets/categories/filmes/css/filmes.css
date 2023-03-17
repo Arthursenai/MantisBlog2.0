@@ -14,7 +14,7 @@ body{
     color: white;
 }
 .container001{
-    margin-top: 2%;
+    
 }
 
 #secimg{
@@ -53,10 +53,13 @@ body{
     margin: 2%;
     border-left-style: solid;
     border-left-color:transparent;
-   height: 700px;
+   height: 900px;
  
  
   
+}
+.container101{
+    display: flex;
 }
     #artimgback{
         margin: auto;
@@ -66,7 +69,9 @@ body{
     padding-top: px;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
     }
-    
+    #p101{
+        margin-left: 4%;
+    }
     #artimg22{
      background-color: black;
     gap: 40px;
@@ -87,9 +92,9 @@ body{
         }
         
     .imgnot{
-        width:150px;
-        height: 100px;
-        padding-right: 5px;
+        width:15%;
+       
+        margin-right: 1%;
     }
     .imgnot2{
         width:150px;
