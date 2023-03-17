@@ -96,9 +96,10 @@ h1 {
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
 }
 
-#carrossel{
+#carrossel {
     text-align: center;
 }
+
 .imgnot {
     width: 150px;
     height: 100px;
@@ -115,13 +116,15 @@ a {
     color: white;
     margin: 2%;
     text-decoration: none;
-
 }
 
 .a {
     text-align: center;
 }
 
+.a2{
+    display: flex;
+}
 span {
     display: block;
     opacity: 0.8;
