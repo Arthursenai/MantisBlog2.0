@@ -53,7 +53,7 @@ body{
     margin: 2%;
     border-left-style: solid;
     border-left-color:transparent;
-   height: 900px;
+   height: 1200px;
  
  
   
@@ -93,7 +93,7 @@ body{
         
     .imgnot{
         width:15%;
-       
+       margin-left: 5%;
         margin-right: 1%;
     }
     .imgnot2{
