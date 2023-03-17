@@ -36,12 +36,13 @@ body {
 }
 
 #secimg {
-    background-color: black;
+    background-color: #312d37;
     gap: 20px;
     border-radius: 10px;
     margin: 1%;
     border-left: 30px solid transparent;
-    width: 1140px;
+    width: 1040px;
+   
 }
 
 #div1 {
@@ -58,6 +59,23 @@ body {
     background-image:
         linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
 }
+
+#pa1{
+    margin: 0;
+    padding: 0;
+
+}
+#pa2{
+    margin: 0;
+    padding: 0;
+
+}
+#pa3{
+    margin: 0;
+    padding: 0;
+
+}
+
 
 h1 {
     margin: 2%;
