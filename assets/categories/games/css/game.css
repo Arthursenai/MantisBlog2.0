@@ -5,9 +5,12 @@ body {
     color: white;
 }
 
-#maisfamosos{
+#maisfamosos {
     text-align: center;
 }
+
+.displayflex {}
+
 #header {
     width: 100%;
     margin-top: 0;
@@ -22,13 +25,12 @@ body {
 #secimg {
     background-color: black;
     gap: 40px;
-    padding-bottom: 300px;
     border-radius: 10px;
     margin: 1%;
     border-left-style: solid;
     border-left-color: transparent;
     border-left-width: 30px;
-
+    display: flex;
 }
 
 #secimg2 {
@@ -111,6 +113,14 @@ a {
     margin: 2%;
     text-decoration: none;
 
+}
+
+.a {
+    margin: 0;
+}
+
+.displayflex {
+    display: flex;
 }
 
 span {
