@@ -2,9 +2,15 @@ body {
     text-align: center;
     margin: auto;
     background-color: whitesmoke;
-    font-family: Arial;
+    background: var(--color-gradient);
 }
+:root{
+    --color-purple-50:#7c3aed;
+    --color-purple-100:#a855f7;
+    --color-purple-200:#bf46ef;
 
+    --color-gradient:linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
+}
 form {
     margin: auto;
     display: flex;
@@ -26,7 +32,7 @@ form {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 9px #373737;
     color: white;
-    background-color: black;
+    background-color: #312d37;
 
 }
 
@@ -39,11 +45,11 @@ form {
     margin: auto;
 } 
 #section1 {
-    background: black;
+    background: #312d37;
     width: 30%;
     display: flex;
     margin: auto;
-    border-radius: 70px;
+    border-radius: 8px;
     border-left-style: solid;
     border-left-color: purple;
     border-left-width: 10px;
