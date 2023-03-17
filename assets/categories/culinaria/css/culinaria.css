@@ -17,7 +17,7 @@ body{
 #secimg{
     background-color: black;
     gap: 40px;
-    padding-bottom: 300px;
+    padding-bottom: 0px;
     border-radius: 10px;
     margin: 1%;
     border-left-style: solid;
@@ -30,6 +30,7 @@ body{
     border-radius: 10px;
     background-image:
  linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+ 
 }
    h1{
     margin: 2%;
@@ -144,4 +145,25 @@ body{
     }
 #footer{
     width: 100%;
+}
+#secsolo{
+    display: flex;
+    margin: auto;
+    margin: 0;
+}
+#divborder{
+    
+    margin-left: -5px;
+    margin: 7%;
+}
+#ref01{
+    margin-left: -5px ;
+    margin-top: 30px;
+    margin: 7%;
+}
+#imgcake{
+    margin-bottom: 25px;
+}
+#a01{
+    margin: auto;
 }
