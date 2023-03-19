@@ -3,6 +3,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
     color: white;
+    text-align: center;
 }
 #header{
     width: 100%;
@@ -154,10 +155,12 @@ body{
 #footer{
     width: 100%;
 }
-p{
+p1{
     font-size: 20px;
     padding: 10px;
-   
+    font-family: 'Lucida Sans';
+    text-align: center;
+    margin-left: 10%;
 }
 .carrossel2{
     overflow: hidden;
@@ -185,5 +188,13 @@ width: 100%;
  }
  .carrossel2> input:nth-child(4):checked ~ .primeiro{
     transform: translateX(-300%);
+ }
+
+ input{
+    margin: 15px;
+    text-align: center;
+ }
+ .primeiro{
+    text-align: center;
  }
  
