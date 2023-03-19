@@ -23,9 +23,14 @@ body{
     border-left-style: solid;
     border-left-color: transparent;
     border-left-width: 30px;
+    height: 100px;
+    width: 600px;
 
 }
 #secimg2{
+    margin-left:600;
+    display: flex;
+    width: 650px;
     margin: 1px;
     border-radius: 10px;
     background-image:
