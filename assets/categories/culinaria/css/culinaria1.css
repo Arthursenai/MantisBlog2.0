@@ -18,6 +18,7 @@ article{
   width: 80%;
   margin: auto;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 #img01{
   margin: 10px;
@@ -44,10 +45,32 @@ li{
 }
 #div02{
   margin-left: 15%;
+  margin-bottom: 20px;
 }
 #ha30{
   text-align: center;
 }
-#li01{
-  margin-bottom: 2%;
+#div03{
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+#sec03{
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+
+}
+#sec02{
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+
+}
+/*estilização do header*/
+#header {
+  width: 100%;
+  margin-top: 0;
+}
+
+/*estilização do footer*/
+#footer {
+  width: 100%;
 }
