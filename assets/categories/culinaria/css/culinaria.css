@@ -1,23 +1,31 @@
-body{
+/*estilização do body*/
+body {
     background-color: rgb(27, 27, 27);
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
     color: white;
 }
-#header{
+
+/*estilização do header*/
+#header {
     width: 100%;
     margin-top: 0;
 }
-#title{
+
+/*estilização do título*/
+#title {
     text-align: left;
     font-size: 30px;
     color: white;
 }
-#pa01{
+
+/*estilização do texto referência do autor*/
+#pa01 {
     margin-left: 30px;
 }
 
-#secimg{
+/*estilização da section de fundo para efeito gradiente*/
+#secimg {
     background-color: black;
     gap: 40px;
     padding-bottom: 0px;
@@ -26,153 +34,176 @@ body{
     border-left-style: solid;
     border-left-color: transparent;
     border-left-width: 30px;
-
 }
-#secimg2{
+
+/*estilização da section de efeito gradiente*/
+#secimg2 {
     margin: 1px;
     border-radius: 10px;
     background-image:
- linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
- 
+        linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+
 }
-   h1{
+
+/*estilização do título*/
+h1 {
     margin: 2%;
     color: white;
-  
-   }
-.titlee{}
-.secp{
+
+}
+
+/*estilização section para texto*/
+.secp {
     color: white;
     margin-left: 2%;
     display: flex;
 
 }
-#artimg2{
+
+/*estilização da section de fundo para efeito gradiente*/
+#artimg2 {
     background-color: black;
     gap: 40px;
     border-radius: 10px;
     margin: 2%;
     border-left-style: solid;
-    border-left-color:transparent;
-   height: 500px;
- 
- 
-  
+    border-left-color: transparent;
+    height: 500px;
+
+
+
 }
-    #artimgback{
-        margin: auto;
+
+/*estilização da section de efeito gradiente*/
+#artimgback {
+    margin: auto;
     border-radius: 10px;
     width: 90%;
     height: 500px;
     padding-top: px;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
-    }
-    
-    #artimg22{
-     background-color: black;
+}
+
+/*estilização da section de fundo para efeito gradiente*/
+#artimg22 {
+    background-color: black;
     gap: 40px;
     border-radius: 10px;
     margin: 2%;
     border-left-style: solid;
-    border-left-color:transparent;
-   height: 500px;
-    }
-        #artimgback22{
-          
-          margin: auto;
+    border-left-color: transparent;
+    height: 500px;
+}
+/*estilização da section de efeito gradiente*/
+#artimgback22 {
+
+    margin: auto;
     border-radius: 10px;
     width: 90%;
     height: 500px;
     padding-top: px;
-        background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
-        }
-        
-    .imgnot{
-        width:150px;
-        height: 100px;
-        padding-right: 5px;
-    }
-    .imgnot2{
-        width:150px;
-        height: 100px;
-        padding-right: 5px;
-    }
-    a{
-        display: flex;
-        color: white;
-        margin: 2%;
-        text-decoration: none;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+/*estilização da imagem*/
+.imgnot {
+    width: 150px;
+    height: 100px;
+    padding-right: 5px;
+}
+/*estilização da imagem*/
+.imgnot2 {
+    width: 150px;
+    height: 100px;
+    padding-right: 5px;
+}
+/*estilização do link*/
+a {
+    display: flex;
+    color: white;
+    margin: 2%;
+    text-decoration: none;
 
-    }
-    span{
-        display: block;
-        opacity: 0.8;
-        margin-left: 2%;
-        font-size: 10px;
-        color: white;
-    }
-   
-    #artimg33{
-        background-color: black;
-       gap: 40px;
-       border-radius: 10px;
-       margin: 2%;
-       border-left-style: solid;
-       border-left-color:transparent;
-      height: 500px;
-       }
-           #artimgback33{
-             margin: auto;
-       border-radius: 10px;
-       width: 90%;
-       height: 500px;
-       padding-top: px;
-           background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
-           }
-           
-       .imgnot33{
-           width:150px;
-           height: 100px;
-           padding-right: 5px;
-       }
-       .imgnot33{
-           width:150px;
-           height: 100px;
-           padding-right: 5px;
-       }
-       .secp33{
-        color: white;
-        margin-left: 2%;
-        display: flex;
-    
-    }
-#footer{
+}
+/*estilização da tag de direitos autorais*/
+span {
+    display: block;
+    opacity: 0.8;
+    margin-left: 2%;
+    font-size: 10px;
+    color: white;
+}
+/*estilização da section de fundo para efeito gradiente*/
+#artimg33 {
+    background-color: black;
+    gap: 40px;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    height: 500px;
+}
+/*estilização da section de efeito gradiente*/
+#artimgback33 {
+    margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 500px;
+    padding-top: px;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+/*estilização da imagem*/
+.imgnot33 {
+    width: 150px;
+    height: 100px;
+    padding-right: 5px;
+}
+/*estilização da imagem*/
+.imgnot33 {
+    width: 150px;
+    height: 100px;
+    padding-right: 5px;
+}
+/*estilização section para texto*/
+.secp33 {
+    color: white;
+    margin-left: 2%;
+    display: flex;
+
+}
+/*estilização do footer*/
+#footer {
     width: 100%;
 }
-#secsolo{
+/*estilização section para display*/
+#secsolo {
     display: flex;
     margin: auto;
     margin: 0;
 }
-#divborder{
-    
+/*estilização div de margem*/
+#divborder {
+
     margin-left: -5px;
     margin: 7%;
 }
-#ref01{
-    margin-left: -5px ;
+/*estilização section para o espaço das refeições*/
+#ref01 {
+    margin-left: -5px;
     margin-top: 30px;
     margin: 7%;
 }
-#imgcake{
-    
+/*estilização div de imagem*/
+#imgcake {
+
     margin-top: 10px;
 }
-#a01{
+/*estilização div de alinhamento*/
+#a01 {
     margin: auto;
 }
-.imgesf{
-    width:178px;
+/*estilização div de imagem*/
+.imgesf {
+    width: 178px;
     height: 110px;
     padding-right: 5px;
 }
