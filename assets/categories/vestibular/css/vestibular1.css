@@ -148,10 +148,11 @@ body{
 
 #sec1{
     width: 30%;
-    -webkit-box-shadow: 15px 15px 21px 0px rgba(237,159,237,1);
--moz-box-shadow: 15px 15px 21px 0px rgba(237,159,237,1);
-box-shadow: 15px 15px 21px 0px rgba(237,159,237,1);
-    height: 300px;
+    -webkit-box-shadow: 15px 14px 41px -1px rgba(214,77,214,1);
+-moz-box-shadow: 15px 14px 41px -1px rgba(214,77,214,1);
+box-shadow: 15px 14px 41px -1px rgba(214,77,214,1);
+background-color: #797984;
+    height:400px;
 }
 
 
@@ -168,8 +169,15 @@ box-shadow: 15px 15px 21px 0px rgba(237,159,237,1);
 
 #sec2{
     width: 30%;
-    background-color: whitesmoke;
-    height: 300px;
-    margin-top: 15px;
+    -webkit-box-shadow: 15px 14px 41px -1px rgba(214,77,214,1);
+    -moz-box-shadow: 15px 14px 41px -1px rgba(214,77,214,1);
+    box-shadow: 15px 14px 41px -1px rgba(214,77,214,1);
+    background-color: #797984;
+    height: 400px;
+    margin-top: 35px;
 
+}
+
+#h13{
+    text-align: center;
 }
