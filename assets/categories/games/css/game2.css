@@ -1,0 +1,167 @@
+body {
+    background-color: rgb(27, 27, 27);
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    color: white;
+}
+
+#recomendados {
+    text-align: center;
+}
+
+.displayflex {
+    display: flex;
+    text-align: center;
+}
+
+#header {
+    width: 100%;
+    margin-top: 0;
+}
+
+#title {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+#secimg {
+    background-color: black;
+    border-radius: 10px;
+    margin: 1%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    text-align: center;
+}
+
+#secimg2 {
+    margin: 1px;
+    border-radius: 10px;
+    background-image:
+        linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+
+h1 {
+    margin: 2%;
+    color: white;
+
+}
+
+.secp {
+    color: white;
+    margin-left: 2%;
+    text-align: center;
+}
+
+#artimg2 {
+    background-color: black;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    height: 100%;
+
+}
+
+#artimgback {
+    margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 100%;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+
+#artimg22 {
+    background-color: black;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    height: 100%;
+}
+
+#artimgback22 {
+
+    margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 100%;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+
+#carrossel {
+    text-align: center;
+}
+
+.imgnot {
+
+    padding-right: 5px;
+}
+
+
+a {
+    color: white;
+    margin: 2%;
+    text-decoration: none;
+}
+
+
+.a2 {
+    display: flex;
+}
+
+span {
+    display: block;
+    opacity: 0.8;
+    margin-left: 2%;
+    font-size: 10px;
+    color: white;
+}
+
+#artimg33 {
+    background-color: black;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    height: 100%;
+}
+
+#artimgback33 {
+    margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 100%;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+
+.imgnot33 {
+
+    padding-right: 5px;
+}
+#secp22 {
+    color: white;
+    margin-left: 2%;
+    text-align: center;
+
+}
+
+.secp33 {
+    color: white;
+    margin-left: 2%;
+    text-align: center;
+
+}
+
+#footer {
+    width: 100%;
+}
+
+img {
+    border-radius: 7px;
+}
+
+.textcenter {
+    border-radius: 7px;
+    text-align: center;
+}
