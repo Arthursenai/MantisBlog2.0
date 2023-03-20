@@ -104,6 +104,9 @@ body{
         text-decoration: none;
 
     }
+    .secp:hover{
+        color: purple;
+    }
     span{
         display: block;
         opacity: 0.8;
