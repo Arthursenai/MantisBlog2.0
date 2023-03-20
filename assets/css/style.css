@@ -9,13 +9,18 @@ body {
     --color-grey: #3a3a3a;
 }
 header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     background-color: var(--color-dark);
     display: flex;
     justify-content: space-between;
     padding: 0 10%;
-    flex-direction: row;
     align-items: center;
     box-shadow: 1px 1px 4px var(--color-grey);
+}
+ul{
+    margin: 0;
+    padding: 0;
 }
 
 nav li{
@@ -30,17 +35,19 @@ ul li{
 }
 ul li a{
     display: block;
-    padding: 20px 25px;
+    padding: 10px 15px;
     color: white;
     text-decoration: none;
 }
 ul li ul.dropdown{
-    width: 100%;
     background-color: black;
     position: absolute;
     z-index: 999;
-    display: none;
+   
 
+}
+ul.dropdown{
+    padding: 0;
 }
 ul li ul.dropdown li{
     display: block;
@@ -49,14 +56,7 @@ ul li:hover ul.dropdown{
     display: block;
 }
 ul li:hover{
-    background-color:#0033f8;
-}
-ul{ 
-    display: flex; 
-    flex-direction: row;
-    gap: 40px;
-    margin: 0px 0px;
-    padding-left: 0;
+    background-color:#003afc
 }
  .navigation a{
     color: white;
@@ -391,4 +391,8 @@ img {
 input {
     margin: 15px;
     text-align: center;
+}
+
+#nos {
+    display: flex;
 }
