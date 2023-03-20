@@ -176,9 +176,9 @@ span {
 
 #sec1 {
     width: 30%;
-    -webkit-box-shadow: 13px 11px 12px -1px rgba(237, 95, 237, 1);
-    -moz-box-shadow: 13px 11px 12px -1px rgba(237, 95, 237, 1);
-    box-shadow: 13px 11px 12px -1px rgba(237, 95, 237, 1);
+    -webkit-box-shadow: 13px 12px 47px -15px rgba(237,95,237,1);
+-moz-box-shadow: 13px 12px 47px -15px rgba(237,95,237,1);
+box-shadow: 13px 12px 47px -15px rgba(237,95,237,1);
     background-color: #000;
     height: 450px;
 }
@@ -212,9 +212,9 @@ span {
 
 #sec2 {
     width: 30%;
-    -webkit-box-shadow: 13px 11px 12px -1px rgba(237, 95, 237, 1);
-    -moz-box-shadow: 13px 11px 12px -1px rgba(237, 95, 237, 1);
-    box-shadow: 13px 11px 12px -1px rgba(237, 95, 237, 1);
+    -webkit-box-shadow: 13px 12px 47px -15px rgba(237,95,237,1);
+    -moz-box-shadow: 13px 12px 47px -15px rgba(237,95,237,1);
+    box-shadow: 13px 12px 47px -15px rgba(237,95,237,1);
     background-color: #000;
     height: 400px;
     margin-top: 35px;
