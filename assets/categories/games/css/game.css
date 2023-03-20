@@ -129,14 +129,14 @@ span {
     margin: 2%;
     border-left-style: solid;
     border-left-color: transparent;
-    height: 700px;
+    height: 100%;
 }
 
 #artimgback33 {
     margin: auto;
     border-radius: 10px;
     width: 90%;
-    height: 700px;
+    height: 100%;
     padding-top: px;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
 }
