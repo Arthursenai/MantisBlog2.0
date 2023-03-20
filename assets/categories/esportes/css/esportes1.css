@@ -1,60 +1,87 @@
-body{
+body {
     background-color: rgb(5, 5, 5);
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
     color: white;
 }
-#header{
+
+#header {
     width: 100%;
     margin-top: 0;
 }
-#title{
+
+#title {
     font-size: 30px;
     color: white;
+    text-align: center;
+    margin-right: 30%;
 }
-#insta{
+
+#insta {
     width: 40px;
     height: 40px;
     margin-left: 40%;
     border-radius: 5px;
 }
-#a111{
+
+#a111 {
     margin-left: 41%;
 }
-#footer{
+
+#footer {
     width: 100%;
 }
-#not1img{
+
+#not1img {
     margin-left: 5%;
     width: 60%;
     border-radius: 10px;
 }
-.spa{
+
+.spa {
     margin-left: 28%;
     color: rgb(166, 163, 163);
 }
-.notp{
+
+.notp {
     margin-left: 2%;
     margin-right: 32%;
     font-size: 20px;
 }
-.titlem{
+
+.titlem {
     margin: 2%;
 }
-.divaside{
-    background-color: rgb(0, 0, 0);
-    width: 32%;
+.titlemat{
+    margin-top: 19px;
+    padding-top: 7%;
+}
+
+.divaside {
+    width: 30%;
     right: 0;
-    top: 155px;
+    top: 159px;
     position: absolute;
 }
-.asimg{
+
+.asimg {
     width: 180px;
     height: 110px;
     border-radius: 10px;
-    display: flex;
 }
-.flex{
+.asimg:hover {
+    width: 180px;
+    height: 110px;
+    border-radius: 10px;
+}
+.asimg2 {
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.flex {
     display: flex;
     margin-bottom: 5%;
 }
+
