@@ -111,9 +111,10 @@ a {
     text-align: center;
 }
 
-.a2{
+.a2 {
     display: flex;
 }
+
 span {
     display: block;
     opacity: 0.8;
@@ -159,6 +160,24 @@ span {
     width: 100%;
 }
 
-img{
+img {
     border-radius: 7px;
+}
+
+#imgsec1:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.imgnot:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.imgnot33:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+
 }
