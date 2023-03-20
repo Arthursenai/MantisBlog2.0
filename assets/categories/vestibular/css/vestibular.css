@@ -39,9 +39,10 @@ body{
    h1{
     margin: 2%;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     padding: 7px;
+    font-family: 'Lucida Sans';
   
    }
    
@@ -197,3 +198,6 @@ width: 100%;
     text-align: center;
  }
  
+ #img{
+margin-left: 25%;
+ }
