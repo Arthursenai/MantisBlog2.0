@@ -51,7 +51,6 @@ h1 {
     color: white;
     margin-left: 2%;
     display: flex;
-
 }
 
 #artimg2 {
@@ -107,9 +106,6 @@ a {
     text-decoration: none;
 }
 
-.secp {
-    text-align: center;
-}
 
 .a2{
     display: flex;
