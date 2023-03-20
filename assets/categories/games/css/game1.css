@@ -50,7 +50,7 @@ h1 {
 .secp {
     color: white;
     margin-left: 2%;
-    display: flex;
+    text-align: center;
 }
 
 #artimg2 {
@@ -106,9 +106,10 @@ a {
 }
 
 
-.a2{
+.a2 {
     display: flex;
 }
+
 span {
     display: block;
     opacity: 0.8;
@@ -119,7 +120,6 @@ span {
 
 #artimg33 {
     background-color: black;
-    gap: 40px;
     border-radius: 10px;
     margin: 2%;
     border-left-style: solid;
@@ -132,7 +132,6 @@ span {
     border-radius: 10px;
     width: 90%;
     height: 100%;
-    padding-top: px;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
 }
 
@@ -140,12 +139,17 @@ span {
 
     padding-right: 5px;
 }
+#secp22 {
+    color: white;
+    margin-left: 2%;
+    text-align: center;
 
+}
 
 .secp33 {
     color: white;
     margin-left: 2%;
-    display: flex;
+    text-align: center;
 
 }
 
@@ -153,6 +157,11 @@ span {
     width: 100%;
 }
 
-img{
+img {
     border-radius: 7px;
+}
+
+.textcenter {
+    border-radius: 7px;
+    text-align: center;
 }
