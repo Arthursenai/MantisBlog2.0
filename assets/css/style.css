@@ -127,8 +127,8 @@ h1 {
 #hp1 {
     margin-top: 55px;
     margin-bottom: 90px;
-    margin-left: 0;
-    padding-right: 70px;
+    color: #6a00e1;
+    font-weight: bold;
 
 }
 
@@ -203,7 +203,9 @@ a {
 .aimg {
     margin: 0px;
 }
-
+.secp{
+    text-align: justify;
+}
 .secp:hover {
     color: purple
 }
@@ -332,11 +334,19 @@ img {
 
 
 .imgp {
-    width: 150px;
-    height: 100px;
-    margin-left: 4px;
+    width: 175px;
+    height: 190px;
+    margin-left: 1px;
+    border-radius: 9px;
 }
-
+.imgpf{
+    width:175px;
+    height: 210px;
+    border-radius: 10px;
+}
+.p01:hover{
+    color: #6a00e1;
+}
 .carrossel {
     margin: 0;
     
