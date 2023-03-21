@@ -326,6 +326,7 @@ img {
 .carimg {
     width: 900px;
     height: 500px;
+    margin-left: 20px;
     border-style: solid;
     border-color: rgb(123, 3, 202);
 
@@ -339,6 +340,7 @@ img {
 }
 
 .carrossel {
+    margin: 0;
     
     overflow: hidden;
 }
