@@ -110,3 +110,7 @@ body {
     display: flex;
     color: white;
 }
+
+#txt1{
+    text-align: center;
+}
