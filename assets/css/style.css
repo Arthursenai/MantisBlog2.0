@@ -205,6 +205,7 @@ a {
 }
 .secp{
     text-align: justify;
+    margin: 0%;
 }
 .secp:hover {
     color: purple
@@ -215,7 +216,7 @@ span {
     font-size: 10px;
     color: white;
     margin: 0;
-    padding-right: 58%;
+    padding-right: 62%;
 }
 
 #artimg4 {
@@ -326,7 +327,7 @@ img {
 .carimg {
     width: 900px;
     height: 500px;
-    margin-left: 20px;
+    margin-left: 12%;
     border-style: solid;
     border-color: rgb(123, 3, 202);
 
