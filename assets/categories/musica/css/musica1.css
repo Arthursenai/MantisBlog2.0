@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(186, 186, 243);
+    background-color: black;
     margin: 30px;
 }
 
@@ -16,7 +16,7 @@ article {
 
 aside {
     display: flex;
-    background-color: rgb(186, 186, 243);
+    background-color: black;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -26,9 +26,7 @@ aside {
     margin: 10px;
     border-radius: 20px;
     border-style: solid;
-    border-color: darkblue;
-    border-width: 8px;
     text-align: center;
+    border-left: 40px rgb(252, 10, 179);
+    border-right: 40px blue;
 }
-
-border radius
