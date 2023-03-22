@@ -4,6 +4,9 @@ body{
     margin: 0%;
     color: white;
     text-align: center;
+    background-image: url(img_flwr.gif), url(../images/papel\ de\ parede.webp);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
 }
 #header{
     width: 100%;
