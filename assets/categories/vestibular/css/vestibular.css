@@ -29,12 +29,13 @@ body{
     border-left-width: 30px;
     height: 100px;
     width: 600px;
-
+padding-top: 10%;
 }
 #secimg2{
    margin: auto;
     display: flex;
     width: 40%;
+    height:30% ;
     border-radius: 10px;
     background-image:
  linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
@@ -63,7 +64,7 @@ body{
     margin: 2%;
     border-left-style: solid;
     border-left-color:transparent;
-   height: 700px;
+   height: 900px;
  
  
   
@@ -72,7 +73,7 @@ body{
         margin: auto;
     border-radius: 10px;
     width: 90%;
-    height: 700px;
+    height: 900px;
     padding-top: px;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
     }
@@ -204,3 +205,4 @@ width: 100%;
  #img{
 margin-left: 25%;
  }
+
