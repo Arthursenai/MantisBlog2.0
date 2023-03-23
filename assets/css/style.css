@@ -114,7 +114,7 @@ ul li:hover ul.dropdown{
     bottom: 0;
     margin-bottom: -5px;
 }
-
+/*Para preenchimento*/
 #secimg {
     background-color: black;
     gap: 40px;
@@ -126,7 +126,7 @@ ul li:hover ul.dropdown{
     border-left-width: 30px;
 
 }
-
+/*overlay da borda gradiente*/
 #secimg2 {
     margin: 1px;
     border-radius: 10px;
@@ -160,7 +160,7 @@ h1 {
     display: flex;
 
 }
-
+/*Para preenchimento*/
 #artimg2 {
     background-color: black;
     gap: 40px;
@@ -171,7 +171,7 @@ h1 {
     width: 100%;
     padding-bottom: 100px;
 }
-
+/*overlay da borda gradiente*/
 #artimgback {
     border-radius: 10px;
     margin: 1px;
@@ -179,7 +179,7 @@ h1 {
     width: 48%;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
 }
-
+/*Para preenchimento*/
 #artimg22 {
     background-color: black;
     gap: 40px;
@@ -191,7 +191,7 @@ h1 {
     padding-bottom: 100px;
     margin-right: 1000px;
 }
-
+/*overlay da borda gradiente*/
 #artimgback2 {
     border-radius: 10px;
     margin: 1px;
@@ -240,7 +240,7 @@ span {
     margin: 0;
     padding-right: 62%;
 }
-
+/*Para preenchimento*/
 #artimg4 {
     background-color: black;
     border-radius: 10px;
@@ -249,7 +249,7 @@ span {
     border-left-width: 10px;
     border-left-color: transparent;
 }
-
+/*overlay da borda gradiente*/
 #artimg6 {
     width: 90%;
     border-radius: 10px;
@@ -304,15 +304,11 @@ span {
     margin-bottom: 10%;
 }
 
-#img09 {
-    border-radius: 10px;
-    margin-left: 5%;
-}
-
+/*Div para ordenar os itens do Veja aqui*/
 .container002 {
     display: flex;
 }
-
+/*overlay da borda gradiente*/
 #artimgback3 {
     border-radius: 10px;
     margin: 1px;
@@ -321,7 +317,7 @@ span {
     width: 94%;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
 }
-
+/*Para preenchimento*/
 #artimg33 {
     background-color: black;
     gap: 40px;
@@ -333,11 +329,11 @@ span {
     padding-bottom: 100px;
     margin-right: 1000px;
 }
-
+/*Estilização dos títulos da seção Veja aqui*/
 h2 {
     color: white;
 }
-
+/*Estilização do tamanho das imagens gerais do site*/
 img {
     width: 150px;
     height: 100px;
@@ -354,66 +350,71 @@ img {
     margin: auto;
 }
 
-
+/*Estilização do tamanho das imagens da seção Veja aqui*/
 .imgp {
     width: 175px;
     height: 190px;
     margin-left: 1px;
     border-radius: 9px;
 }
+/*Estilização do tamanho das imagens da seção Veja aqui*/
 .imgpf{
     width:175px;
     height: 210px;
     border-radius: 10px;
 }
+/*Estilização da cor quando se passa o cursor sobre*/
 .p01:hover{
     color: #6a00e1;
 }
+/*título das matérias*/
 .p01{
     text-align: left;
     text-align: justify;
     display: block;
 }
+/*Class para esconder imagens que não estão em estande*/
 .carrossel{
     margin: 0;
     overflow: hidden;
 }
+/*Fluxo dos slides*/
 .carrossel>.slide_container {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
     transition: all 400ms ease;
 }
-
+/*Fluxo dos slides*/
 .carrossel>.slide_container>.item_1 {
     flex: 0 0 auto;
     width: 100%;
 }
-
+/*Fluxo dos slides*/
 .carrossel>input:nth-child(1):checked~.slide_container {
     transform: translateX(0);
 }
-
+/*Fluxo dos slides*/
 .carrossel>input:nth-child(2):checked~.slide_container {
     transform: translateX(-100%);
 }
-
+/*Fluxo dos slides*/
 .carrossel>input:nth-child(3):checked~.slide_container {
     transform: translateX(-200%);
 }
-
+/*Fluxo dos slides*/
 .carrossel>input:nth-child(4):checked~.slide_container {
     transform: translateX(-300%);
 }
-
+/*Fluxo dos slides*/
 .carrossel>input:nth-child(5):checked~.slide_container {
     transform: translateX(-400%);
 }
-
+/*Fluxo dos slides*/
 .carrossel>input:nth-child(6):checked~.slide_container {
     transform: translateX(-500%);
 }
-
+/*Input das bolinhas para slider*/
 input {
     margin: 15px;
     text-align: center;
