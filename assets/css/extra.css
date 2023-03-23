@@ -2,7 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
     padding: 0;
-    background-color: rgb(33, 31, 31);
+    background-color: rgb(1, 1, 1);
     text-align: center;
     color: white;
 }
@@ -112,4 +112,23 @@ ul li:hover ul.dropdown{
     width: 100%;
     bottom: 0;
     margin-bottom: -5px;
+}
+/*Estilização do tamanho e posicionamento dos paragráfos da matéria*/
+.notp {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+    text-align: justify;
+}
+/*Estilização do tamanho e posicionamento dos paragráfos da matéria*/
+.notp2 {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
+}
+#not2img{
+    height: 270px;
+    width: 270px;
 }
