@@ -22,13 +22,13 @@ body {
 
 #instagram_linktree {
     justify-content: space-between 60px;
-    padding-left: 400px;
+    padding-left: 39%;
     display: flex;
     padding-top: 30px;
 }
 
 #p_direitos {
-    padding-left: 260px;
+    padding-left: 560px;
     padding-top: 20px;
 }
 a{
@@ -50,4 +50,8 @@ footer{
 }
 p{
     color: white;
+}
+
+.ah:hover{
+    color: purple;
 }
