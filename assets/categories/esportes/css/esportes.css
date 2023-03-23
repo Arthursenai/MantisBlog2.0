@@ -16,8 +16,8 @@ body{
 
 #secimg{
     background-color: black;
-    width: 82%;
-    margin: 8%;
+    width: 35%;
+    margin: auto;
     border: 10px solid purple;
     border-radius: 7px;
     display: flex;
@@ -29,12 +29,11 @@ body{
     color: white;
   
    }
-.titlee{}
 .secp{
     color: white;
     margin-left: 2%;
     display: flex;
-
+    font-size: 20px;
 }
 #artimg2{
     background-color: black;
@@ -43,7 +42,7 @@ body{
     margin: 2%;
     border-left-style: solid;
     border-left-color:transparent;
-   height: 500px;
+   height: 400px;
  
  
   
@@ -52,7 +51,7 @@ body{
         margin: auto;
     border-radius: 10px;
     width: 90%;
-    height: 500px;
+    height: 400px;
     padding-top: px;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
     }
@@ -65,14 +64,14 @@ body{
     margin: 2%;
     border-left-style: solid;
     border-left-color:transparent;
-   height: 500px;
+   height: 400px;
     }
         #artimgback22{
           
           margin: auto;
     border-radius: 10px;
     width: 90%;
-    height: 500px;
+    height: 400px;
     padding-top: px;
         background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
         }
@@ -112,6 +111,7 @@ body{
         margin-left: 2%;
         font-size: 10px;
         color: white;
+        margin-top: -10px;
     }
    
     #artimg33{
@@ -121,13 +121,13 @@ body{
        margin: 2%;
        border-left-style: solid;
        border-left-color:transparent;
-      height: 500px;
+      height: 400px;
        }
            #artimgback33{
              margin: auto;
        border-radius: 10px;
        width: 90%;
-       height: 500px;
+       height: 400px;
        padding-top: px;
            background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
            }
@@ -144,9 +144,9 @@ body{
     }
        .secp33{
         color: white;
-        margin-left: 2%;
+        margin-left: 1%;
         display: flex;
-    
+        font-size: 20px;
     }
     .secp33:hover{
         color: purple;
@@ -156,9 +156,7 @@ body{
 }
 .imgw{
     width: 170px;
-    height: 170px;
-    margin-left: 115px;
-}
+    height: 170px;}
 .aimg{
     margin: 0;
     padding: 0;
