@@ -1,0 +1,144 @@
+/*Estilização do corpo e estrutura inteira do site*/
+body{
+    background-color: rgb(27, 27, 27);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    color: white;
+}
+/*Estilização do cabeçalho do site*/
+#header{
+    width: 100%;
+    margin-top: 0;
+}
+/*Estilização do Título principal do site*/
+#title{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+/*Estilização da seção de fotos com as bolas dos esportes*/
+#secimg{
+    background-color: black;
+    width: 35%;
+    margin: auto;
+    border: 10px solid purple;
+    border-radius: 7px;
+    display: flex;
+   
+}
+/*Estilização dos títulos das seções de redirecionamento*/
+   h1{
+    margin: 2%;
+    color: white;
+  
+   }
+   /*Estilização das matérias das primerias 2 seções (Basquete e Futebol) */
+.secp{
+    color: white;
+    margin-left: 2%;
+    display: flex;
+    font-size: 20px;
+}
+/*Article para texto e imagens das matérias que sobrepõe o overlay*/
+.artimg2{
+    background-color: black;
+    gap: 40px;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color:transparent;
+   height: 400px;
+ 
+ 
+  
+}
+/*Article overlay para bordas gradientes*/
+    .artimgback{
+        margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 400px;
+    padding-top: px;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+    }
+    
+        /*Estilização do tamanho e posicionamento das imagens das notícias*/
+    .imgnot{
+        width:150px;
+        height: 100px;
+        padding-right: 5px;
+        border-radius: 10px;
+    }
+    /*Estilização do tamanho quando se passa o cursor o elemento*/
+    .imgnot:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s ease-in-out;
+    }
+    /*Estilização do tamanho e posicionamento das imagens das notícias*/
+    .imgnot2{
+        width:150px;
+        height: 100px;
+        padding-right: 5px;
+    }
+    /*Estilização do tamanho quando se passa o cursor sobre o elemento*/
+    .imgnot2:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s ease-in-out;
+    }
+    a{
+        display: flex;
+        color: white;
+        margin: 2%;
+        text-decoration: none;
+
+    }
+    /*Estilização da cor quando se passa o cursor sobre o elemento*/
+    .secp:hover{
+        color: purple;
+    }
+    /*Estilização dos direitos autorais das imagens*/
+    span{
+        display: block;
+        opacity: 0.8;
+        margin-left: 2%;
+        font-size: 10px;
+        color: white;
+        margin-top: -10px;
+    }
+   
+           /*Estilização do tamanho e posicionamento das imagens das notícias*/
+       .imgnot33{
+           width:150px;
+           height: 100px;
+           padding-right: 5px;
+           border-radius: 10px;
+       }
+       /*Estilização do tamanho e transição quando se passa o cursor sobre o elemento*/
+       .imgnot33:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s ease-in-out;
+    }
+    /*Estilização do tamanho e posicionamento dos paragrafos das matérias*/
+       .secp33{
+        color: white;
+        margin-left: 1%;
+        display: flex;
+        font-size: 20px;
+    }
+    /*Estilização da cor quando se passa o cursor sobre o elemento*/
+    .secp33:hover{
+        color: purple;
+    }
+#footer{
+    width: 100%;
+}
+/*Estilização do tamanho e posicionamento das imagens das bolas de futebol*/
+.imgw{
+    width: 170px;
+    height: 170px;}
+    /*Estilização do posicionamento das imagens clicaveís*/
+.aimg{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}

@@ -1,0 +1,125 @@
+/*Estilização do corpo e estrutura inteira do site*/
+body {
+    background-color: rgb(5, 5, 5);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    color: white;
+}
+/*Estilização do cabeçalho do site*/
+#header {
+    width: 100%;
+    margin-top: 0;
+}
+/*Estilização do autor da notícia*/
+p{
+    margin-left: 2%;
+}
+/*Estilização do Título principal do site*/
+#title {
+    font-size: 30px;
+    color: white;
+    margin-left: 2%;
+    font-weight: bold;
+}
+/*Estilização do ícone do instagram do autor do texto*/
+#insta {
+    width: 40px;
+    height: 40px;
+    margin-left: 40%;
+    border-radius: 5px;
+}
+/*Estilização do redirecionamento do instagram do autor do texto*/
+#a111 {
+    margin-left: 41%;
+}
+/*Estilização do rodapé do site*/
+#footer {
+    width: 100%;
+}
+/*Estilização do Tamanho e posicionamento da imagem referente a notícia*/
+#not1img {
+    margin-left: 5%;
+    width: 60%;
+    border-radius: 10px;
+}
+/*Estilização dos direitos autorais da imagem*/
+.spa {
+    margin-left: 25%;
+    color: rgb(166, 163, 163);
+}
+/*Estilização do tamanho e posicionamento dos paragráfos da matéria*/
+.notp {
+    margin-left: 2%;
+    margin-right: 32%;
+    font-size: 20px;
+    text-align: justify;
+}
+/*Estilização dos direitos autorais das imagens*/
+.titlemat{
+    padding-top: 4%;
+    margin-left: 2%;
+}
+/*Estilização do posicionamento do aside*/
+.divaside {
+    width: 30%;
+    right: 0;
+    top: 159px;
+    position: absolute;
+}
+/*Estilização das imagens do aside*/
+.asimg {
+    width: 180px;
+    height: 110px;
+    border-radius: 10px;
+}
+/*Estilização das imagens do aside*/
+.asimg1{
+    width: 190px;
+    height: 120px;
+    border-radius: 10px;
+}
+/*Estilização das imagens do aside quando se passa o cursor sobre os elementos*/
+.asimg1:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+   }
+/*Estilização das imagens do aside quando se passa o cursor sobre os elementos*/
+.asimg:hover {
+    transform: scale(1.1);
+        transition: transform 0.5s ease-in-out;
+}
+/*Estilização das imagens do aside quando se passa o cursor sobre os elementos*/
+.asimg2:hover {
+    transform: scale(1.1);
+        transition: transform 0.5s ease-in-out;
+}
+/*Estilização do tamanho da imagem 2 do aside*/
+.asimg2 {
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+}
+/*Div para display flex das imagens e textos do aside*/
+.flex {
+    display: flex;
+    margin-bottom: 5%;
+}
+/*Estilização dos títulos do aside*/
+.pa{
+    margin-left: 10px;
+}
+/*Estilização das cores dos títulos do aside quando se passa o cursor sobre os elementos*/
+.pa:hover{
+    color: blueviolet;
+}
+/*display flex das imagens e textos do aside A*/
+.aaside{
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+/*Estilização da largura e posicionamento do vídeo sobre a notícia*/
+.video{
+    margin-left: 2%;
+    width: 60%;
+}
