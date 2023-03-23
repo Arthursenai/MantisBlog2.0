@@ -3,13 +3,16 @@
     text-align: center;
 }
 
-body {
-}
+body{
+    background-color: rgb(27, 27, 27);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    color: white;}
 
 article {
     box-shadow: rgb(0, 0, 86);
     border-radius: 10px;
-    margin: 15px;
+    margin: 50px;
 }
 
 aside {
@@ -30,4 +33,19 @@ aside {
 }
 #weeknd{
     display: flex;
+}
+#div1{
+    text-align: center;
+    display: flex;
+
+}
+#article1{
+    box-shadow: 25px 25px white;
+}
+#article2{
+    background-color: crimson;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
 }
