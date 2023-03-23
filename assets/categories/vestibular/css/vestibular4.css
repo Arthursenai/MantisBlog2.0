@@ -50,10 +50,10 @@ body {
 }
 
 .titlem {
-    margin-left: 22px;
+    margin-left: 30%;
 }
-.titlemat{
-    padding-top: 4%;
+#txt2{
+  margin-left: 25%;
 }
 
 .divaside {
@@ -113,4 +113,28 @@ body {
 
 #txt1{
     text-align: center;
+}
+
+.img4{
+   
+    margin-left: 20%;
+}
+
+#pa1{
+    font-size: 150%;
+}
+
+.titlemn{
+    margin-left: 18%;
+}
+
+.pa5{
+    margin-left: 27%;
+}
+
+.pa6{
+    margin-left: 25%;
+}
+.pa7{
+    margin-left: 28%;
 }
