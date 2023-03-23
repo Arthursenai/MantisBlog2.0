@@ -353,6 +353,11 @@ img {
 .p01:hover{
     color: #6a00e1;
 }
+.p01{
+    text-align: left;
+    text-align: justify;
+    display: block;
+}
 .carrossel{
     margin: 0;
     overflow: hidden;
