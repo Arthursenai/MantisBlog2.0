@@ -1,0 +1,32 @@
+#ha1 {
+    font-family: Arial;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(186, 186, 243);
+    margin: 30px;
+}
+
+article {
+    box-shadow: rgb(0, 0, 86);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+aside {
+    display: flex;
+    background-color: rgb(186, 186, 243);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#pa1 {
+    width: 33%;
+    margin: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 8px;
+    text-align: center;
+}

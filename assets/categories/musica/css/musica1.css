@@ -1,0 +1,33 @@
+#ha1 {
+    font-family: Arial;
+    text-align: center;
+}
+
+body {
+}
+
+article {
+    box-shadow: rgb(0, 0, 86);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+aside {
+    display: flex;
+    background-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#pa1 {
+    width: 33%;
+    margin: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    text-align: center;
+    border-left: 40px rgb(252, 10, 179);
+    border-right: 40px blue;
+}
+#weeknd{
+    display: flex;
+}
