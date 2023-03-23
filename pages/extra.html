@@ -1,122 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,600;1,200;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/extra.css">
     <title>Mantis</title>
 </head>
-<!--Título do body -->
-<h1 id="title">Porque Mantis</h1>
-<!--seção de fotos inicias-->
-<div id="fotosc">
-    <!--Slider de imagens-->
-    <article id="carrossel">
-        <section id="secimg">
-            <a class="aimg" href="../pages/categories/esportes/esportes1.html">
-            <img class="imgw" src="../assets/categories/esportes/images/Bola de futbl.png">
-            </a>
-            <a class="aimg" href="../pages/categories/esportes/esportes5.html">
-            <img class="imgw" src="../assets/categories/esportes/images/bola de basquete.png">
-            </a>
-            <a class="aimg" href="../pages/categories/esportes/esportes2.html">
-            <img class="imgw" src="../assets/categories/esportes/images/volei 3.png">
-            </a>
-        </section>
-    </article>
+<body>
+    <header>
+        <!--Logo da Header-->
+        <img class="logo" src="../assets/images/Logo White.png" alt="Logo do site Mantis Blog">
+
+        <!--div para nav do header-->
+        <div class=" navigation">
+            <nav>
+
+
+                <!--Ul para listas desordenadas-->
+                <ul>
+
+                    <!--item para página inicial-->
+                    <li id="Home">
+                        <a href="../index.html" target="_parent">
+                            Home
+                        </a>
+                    </li>
+                    <!--item das categorias-->
+
+                    <li id="categories">
+                        <a href="#" target="_parent">Categorias</a>
+                        <!--Menu dropdown do item categorias-->
+                        <ul class="dropdown">
+                    </li>
+                    <!--item de rediricionamento para page de culinária-->
+                    <li><a href="../pages/culinaria.html" target="_parent">Culinária</a></li>
+                    <!--item de rediricionamento para page de esportes-->
+                    <li><a href="../pages/esportes.html" target="_parent">Esportes</a></li>
+                    <!--item de rediricionamento para page de filmes-->
+                    <li><a href="../pages/filme.html" target="_parent">Filmes</a></li>
+                    <!--item de rediricionamento para para page de games-->
+                    <li><a href="../pages/game.html" target="_parent">Games</a></li>
+                    <!--item de rediricionamento para page de música-->
+                    <li><a href="../pages/musica.html" target="_parent">Música</a></li>
+                      <!--item de rediricionamento para page de vestibular-->
+                    <li><a href="../pages/vestibular.html" target="_parent">Vestibular</a></li>
+                </ul>
+                <!--item do sobre nós-->
+                <li class="nos"><a href="./pages/sobrenos.html" target="_parent">
+                        Nós
+                    </a>
+                </li>
+
+
+
+            </nav>
+        </div>
+    </header>
+<!-- titulo da Notícia da pagina aqui-->
+<h2 class="titlemat">Porque Mantis?</h2>
+
+<div class="not1img">
+    <img id="not1img" src="/assets/images/Mantis img.jfif">
 </div>
-<!--Gradiete da borda-->
-<article class="artimgback">
-    <!--Article principal dessa seção-->
-    <article class="artimg2">
-        <!--Notícias-->
-    <h1 class="titlee">Futebol</h1>
-    <section id="not1">
-        <a href="../pages/categories/esportes/esportes1.html" target="_parent">
-            <img class="imgnot" src="../assets/categories/esportes/images/felicidade.webp" alt="corinthians x ituano">
-            <section class="secp">
-            Corinthians é eliminado pelo Ituano em
-            itaquera
-            </section>
-            </a>
-            <span>Foto: Marcos Ribolli</span> 
-    
-        <section id="not1">
-            <a href="../pages/categories/esportes/esportes4.html" target="_parent">
-                <img class="imgnot" src="../assets/categories/esportes/images/sp-agua-santa.jpeg" alt="São Paulo x Água Santa">
-                <section class="secp">
-                São Paulo é eliminado por Água Santa no Allianz Parque
-                </section>
-                </a>
-                <span>Foto: Marcos Ribolli</span> 
-       
-    </section>
-</article>
-</article>
-</article>
-<!--Gradiete da borda-->
-<article class="artimgback">
-    <!--Article principal dessa seção-->
-    <article class="artimg2">
-       
-    <h1>Basquete
-    </h1>
-    <section id="not1">
-        <a href="../pages/categories/esportes/esportes3.html" target="_parent">
-            <img class="imgnot" src="../assets/categories/esportes/images/jamorant.webp" alt="Atleta Ja Morant">
-            <section class="secp">
-                NBA suspende estrela Ja Morant por vídeo com pistola
-            </section>
-            </a>
-            <span>Foto: Justin Ford/Getty Images</span> 
-    
-        <section id="not1">
-            <a href="../pages/categories/esportes/esportes5.html" target="_parent">
-                <img class="imgnot" src="../assets/categories/esportes/images/golden state warriors.jpeg" alt="Golden State Warriors">
-                <section class="secp">
-            Golden State Warriors perde 11º partida como visitante
-                </section>
-                </a>
-                <span>Foto: Kevork Djansezian/Getty Images</span> 
+<span class="spa">Foto: Getty Images</span>
+<div class="materiacr">
+    <p class="notp">Domingo dia 12/03 , Corinthians foi eliminado do Campeonato Paulista em sua casa nas quartas de final,
+        após perder nos pênaltis para a equipe do Ituano.
+        Durante o tempo normal, o Ituano marcou o primeiro gol da partida com uma bela finalização de Raí Ramos, mas
+        Paulinho de cabeça empatou para o
+        Corinthians ainda no primeiro tempo.
+        Nas penalidades, o goleiro Jefferson Paulino se destacou ao defender as cobranças de Fabio Santos e Fagner;
+        Gil também perdeu sua penalidade, acertou a trave, e o Galo de Itu acabou vencendo por 7x6 nas
+        penalidades.</p>
+</div>
+<!--video sobre a notícia-->
+<div class="video">
+    <iframe width="950" height="400" src="https://www.youtube.com/embed/MB3pzJsAAyQ" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+</div>
+<!--parte 2 da noticia -->
+<p class="notp"> Por conta da vitória, o Ituano Futebol Clube chegou aos 13 pontos e irá enfrentar o melhor time do país o Palmeiras, em pleno Allianz Parque.
+A partida da semi-final acontecerá no dia 19 de março.</p>
 
-        
-        </section>
-    </section>
-</article>
-</article>
-</article>
-<!--Gradiete da borda-->
-<article class="artimgback">
-    <!--Article principal dessa seção-->
-    <article class="artimg2">
-       
-<h1 class="titlee">Vôlei</h1>
-<section class="not33">
-    <a href="../pages/categories/esportes/esportes2.html" target="_parent">
-        <img class="imgnot33" src="../assets/categories/esportes/images/cruzeiro.webp" alt="cruzeiro campeão">
-        <section class="secp33">
-        Cruzeiro é campeão do título sul-americano
-        </section>
-        </a>
-        <span>Foto: Bruno Cunha</span> 
-
-        
-    <section class="not33">
-        <a href="../pages/categories/esportes/esportes6.html" target="_parent">
-            <img class="imgnot33" src="../assets/categories/esportes/images/sesi-bauru.webp" alt="Sesi-Bauru Time de vôlei">
-            <section class="secp33">
-            Sesi-Bauru bate o Pinheiros na Superliga Feminina
-            </section>
-            </a>
-            <span>Foto: Marcelo Ferrazoli</span>
-        
-    </section>
-   
-
-</article>
-</article>
-</article>
-<!--Fim das notícias-->
+</div>
+<!--seção de fotos inicias-->
 
 <iframe id="footer" src="../layouts/footer.html" frameborder="0" scrolling="no"></iframe>
 </body>
