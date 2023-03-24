@@ -117,3 +117,11 @@ ul li:hover ul.dropdown{
     margin-bottom: -5px;
     bottom: 0;
 }
+.as{
+    text-decoration: none;
+    color: white;
+}
+.cards{
+    background-color: #000000;
+    width: 35%;
+}
