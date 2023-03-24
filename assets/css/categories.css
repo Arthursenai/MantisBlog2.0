@@ -1,9 +1,10 @@
 /*Estilização do corpo e estrutura inteira do site*/
 body{
-    background-color: rgb(27, 27, 27);
+    background-color:  rgb(33, 31, 31);
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
     color: white;
+    font-size: 30px;
 }
 /*raiz das cores*/
 :root{
@@ -108,20 +109,53 @@ ul li:hover ul.dropdown{
 /*Estilização do Título principal do site*/
 #title{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     color: white;
 }
+
 #footer{
     width: 100%;
     margin-bottom: -5px;
     bottom: 0;
 }
+
 .as{
     text-decoration: none;
     color: white;
 }
 .cards{
     background-color: #000000;
-    width: 35%;
-    margin: 5%;
+    display: flex;
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 500px;
+}
+.cards:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-out;
+
+}
+
+.imgc{
+    width: 180px;
+    height: 160px;
+}
+.articles{
+    display: flex;
+    justify-content: center;
+
+}
+.art1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.art2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titles{
+    padding-right: 5px;
 }
