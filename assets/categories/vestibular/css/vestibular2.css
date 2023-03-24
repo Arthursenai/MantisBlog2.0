@@ -53,6 +53,7 @@ body {
 .titlem {
     margin-left: 20%;
     font-size: 150%;
+    margin-top: 5%;
     
 }
 
@@ -133,5 +134,6 @@ body {
 #pa1 {
     font-size: 150%;
     justify-content: center;
-   
+    margin-bottom: 5%;
 }
+   
