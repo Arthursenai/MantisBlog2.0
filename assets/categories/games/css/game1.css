@@ -13,8 +13,8 @@ body {
 #title {
     font-size: 30px;
     color: white;
-    text-align: center;
     margin-right: 30%;
+    margin-left: 2%;
 }
 
 #insta {
@@ -54,6 +54,11 @@ body {
 }
 .titlemat{
     padding-top: 4%;
+    margin-left: 2%;
+    margin-right: 32%;
+}
+.marginleft{
+    margin-left: 2%;
 }
 
 .divaside {
