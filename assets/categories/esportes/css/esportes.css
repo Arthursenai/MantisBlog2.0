@@ -114,7 +114,7 @@ ul li:hover ul.dropdown{
 /*Estilização da seção de fotos com as bolas dos esportes*/
 #secimg{
     background-color: black;
-    width: 35%;
+    width: 41%;
     margin: auto;
     border: 10px solid purple;
     border-radius: 7px;
@@ -234,7 +234,7 @@ ul li:hover ul.dropdown{
     height: 170px;}
     /*Estilização do posicionamento das imagens clicaveís*/
 .aimg{
-    margin: 0;
+    margin: 1px;
     padding: 0;
     display: flex;
 }
