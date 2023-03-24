@@ -122,7 +122,10 @@ body {
 
 #pa1{
     font-size: 150%;
+    border-top: solid 3px   #bf46ef;
+    border-bottom: solid 3px #a855f7;
 }
+
 .pa8{
     margin-left: 32%;
 }

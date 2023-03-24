@@ -1,3 +1,21 @@
+/*criação de variaveis para a organização das cores*/
+:root{
+    --color-light-50:#f8fafc;
+
+    --color-dark-50:#797984;
+    --color-dark-100:#312d37;
+    --color-dark-900:#000;
+
+    --color-purple-50:#7c3aed;
+    --color-purple-100:#a855f7;
+    --color-purple-200:#bf46ef;
+
+    --color-gradient:linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
+
+}
+
+
+
 body {
     background-color: rgb(5, 5, 5);
     font-family: 'Montserrat', sans-serif;
@@ -52,6 +70,7 @@ body {
 .titlem {
     margin-left: 20%;
     font-size: 150%;
+
 }
 #txt2{
   margin-left: 30%;
@@ -124,4 +143,6 @@ body {
 #pa1{
     font-size: 150%;
     justify-content: center;
+    border-top: solid 3px   #bf46ef;;
+    border-bottom: solid 3px #a855f7
 }
