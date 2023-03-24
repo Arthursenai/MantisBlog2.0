@@ -170,7 +170,9 @@ span {
 #footer {
     width: 100%;
 }
-
+.container01{
+    display: flex;
+}
 .not33 {
     margin-top: 3%;
 }
