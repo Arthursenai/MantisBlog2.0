@@ -206,7 +206,7 @@ p{
 }
 /*Estilização das cores dos títulos do aside quando se passa o cursor sobre os elementos*/
 .pa:hover{
-    color: blueviolet;
+    color: purple;
 }
 /*display flex das imagens e textos do aside A*/
 .aaside{
