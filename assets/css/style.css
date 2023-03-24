@@ -226,7 +226,7 @@ a {
 /*Estilização das manchetes nóticias*/
 .secp{
     text-align: justify;
-    margin: 0%;
+    margin: 1%;
 }
 /*Estilização da cor das notícias quando se passa cursor sobre*/
 .secp:hover {
