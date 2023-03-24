@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0; 
     padding: 0;
     box-sizing: border-box;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -11,18 +11,23 @@ body{
     justify-content: center;
     background: #000000;
 }
-
+.swiper-slide{
+    flex-shrink: 0;
+    
+   
+}
 .swiper{
-    width: 950px;
+    width: 900px;
 }
 
 section .card .image{
     height: 140px;
     width: 140px;
     border-radius: 100%;
-    padding: 3px;
+    padding: 4px;
     background: #7d2ae8;
 }
+
 
 section .card .image img{
     height: 100%;
@@ -35,8 +40,9 @@ section .card .image img{
     position: relative;
     background: #fff;
     border-radius: 20px;
-    margin: 20px 4px;
+    margin: 20px 2px;
     width: 280px;
+    
 }
 .card::before{
     content: "";
