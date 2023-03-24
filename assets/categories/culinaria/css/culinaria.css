@@ -109,12 +109,14 @@ h1 {
     width: 150px;
     height: 100px;
     padding-right: 5px;
+    border-radius: 10px;
 }
 /*estilização da imagem*/
 .imgnot2 {
     width: 150px;
     height: 100px;
     padding-right: 5px;
+    border-radius: 10px;
 }
 /*estilização do link*/
 a {
@@ -156,12 +158,14 @@ span {
     width: 150px;
     height: 100px;
     padding-right: 5px;
+    border-radius: 10px;
 }
 /*estilização da imagem*/
 .imgnot33 {
     width: 150px;
     height: 100px;
     padding-right: 5px;
+    border-radius: 10px;
 }
 /*estilização section para texto*/
 .secp33 {
@@ -188,9 +192,9 @@ span {
 }
 /*estilização section para o espaço das refeições*/
 #ref01 {
-    margin-left: -5px;
-    margin-top: 30px;
-    margin: 7%;
+    margin-left: -5px
+    
+   
 }
 /*estilização div de imagem*/
 #imgcake {
@@ -206,4 +210,9 @@ span {
     width: 178px;
     height: 110px;
     padding-right: 5px;
+    border-radius: 10px;
+}
+/*estilização do texto das notícias*/
+#pa02:hover{
+    color: purple;
 }
