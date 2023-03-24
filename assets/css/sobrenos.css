@@ -35,7 +35,7 @@ section .card .image img{
     position: relative;
     background: #fff;
     border-radius: 20px;
-    margin: 20px 0;
+    margin: 20px 10px;
     width: 280px;
 }
 .card::before{
@@ -47,6 +47,7 @@ section .card .image img{
     border-radius: 20px 20px 0 0;
 }
 .card .card-content{
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,6 +55,7 @@ section .card .image img{
     position:relative;
     z-index: 100;
 }
+
 .card .media-icons{
     position: absolute;
     top: 10px;
