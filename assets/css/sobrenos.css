@@ -35,7 +35,7 @@ section .card .image img{
     position: relative;
     background: #fff;
     border-radius: 20px;
-    margin: 20px 10px;
+    margin: 20px 4px;
     width: 280px;
 }
 .card::before{
