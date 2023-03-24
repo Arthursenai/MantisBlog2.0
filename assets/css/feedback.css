@@ -28,20 +28,19 @@ form{
     
 }
 
-/*estilização do container*/
+/*estilização do container
 #container{
     height:100%;
     width: 100%;
-    /*backgrond:var para linkar o gradient color*/
-    background: var(--color-gradient);
+    /*backgrond:var para linkar o gradient color
+    background-color: #000;
     display: flex;
-    /* para centralização de itens*/
+    /* para centralização de itens
     align-items: center;
-    justify-content: center;
-}
+    justify-content: center;*/
 
 #login_form{
-    background-color: #5c5c5c;
+    background-color: #4f4848;
     display: flex;
     flex-direction: column;
     padding: 30px 40px;
@@ -146,7 +145,7 @@ form{
 	position:relative;
 	top:1px;
 }
-/* mudança para dark*/
+/* mudança para dark
 .dark#login_form{
     color: var(--color-light-50);
     background-color: var(--color-dark-100);
@@ -161,7 +160,7 @@ form{
     color: var(--color-light-50s);
 }
 
-
+*/
 form textarea {
     padding: 5px 15px;
     border: 1px solid #5c5c5c;
