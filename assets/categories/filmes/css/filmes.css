@@ -98,6 +98,11 @@ h1 {
     height: 40%;
     padding-right: 5px;
 }
+.imgnot01{
+    margin-top: 0%;
+    width: 10%;
+    height: 20%;
+}
 
 .imgnot2 {
     width: 150px;
@@ -147,8 +152,8 @@ span {
 }
 
 .imgnot33 {
-    width: 150px;
-    height: 100px;
+    width: 10%;
+    height: 5%;
     padding-right: 5px;
 }
 
