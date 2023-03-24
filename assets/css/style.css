@@ -117,13 +117,11 @@ ul li:hover ul.dropdown{
 /*Para preenchimento*/
 #secimg {
     background-color: black;
-    gap: 40px;
     padding-bottom: 20px;
     border-radius: 10px;
     margin: 1%;
     border-left-style: solid;
     border-left-color: transparent;
-    border-left-width: 30px;
 
 }
 /*overlay da borda gradiente*/
