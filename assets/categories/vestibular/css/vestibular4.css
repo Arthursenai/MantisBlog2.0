@@ -51,6 +51,7 @@ body {
 
 .titlem {
     margin-left: 30%;
+    margin-top: 5%;
 }
 #txt2{
   margin-left: 25%;
@@ -121,7 +122,10 @@ body {
 }
 
 #pa1{
-    font-size: 150%;}
+    font-size: 150%;
+    margin-bottom:5%;
+}
+
 
 
 .titlemn{
