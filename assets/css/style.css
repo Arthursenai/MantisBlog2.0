@@ -315,11 +315,21 @@ img {
     margin-left: 1px;
     border-radius: 9px;
 }
+/*Estilização do tamanho das imagens do veja aqui quando se passa cursor sobre*/
+.imgp:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
 /*Estilização do tamanho das imagens da seção Veja aqui*/
 .imgpf{
     width:260px;
     height: 180px;
     border-radius: 10px;
+}
+/*Estilização do tamanho das imagens dos filmes do veja aqui quando se passa cursor sobre*/
+.imgpf:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
 }
 /*Estilização da cor quando se passa o cursor sobre*/
 .p01:hover{
