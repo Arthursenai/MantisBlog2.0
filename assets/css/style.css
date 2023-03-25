@@ -200,8 +200,8 @@ h1 {
 }
 /*Estilização do tamanho e posicionamento das imagens do mais visualizados e bombastico*/
 .imgnot {
-    width: 150px;
-    height: 100px;
+    width: 185px;
+    height: 135px;
     padding-right: 5px;
     border-radius: 10px;
     transition: transform 0.5s ease;
