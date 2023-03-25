@@ -310,15 +310,15 @@ img {
 
 /*Estilização do tamanho das imagens da seção Veja aqui*/
 .imgp {
-    width: 175px;
-    height: 190px;
+    width: 260px;
+    height: 180px;
     margin-left: 1px;
     border-radius: 9px;
 }
 /*Estilização do tamanho das imagens da seção Veja aqui*/
 .imgpf{
-    width:175px;
-    height: 210px;
+    width:260px;
+    height: 180px;
     border-radius: 10px;
 }
 /*Estilização da cor quando se passa o cursor sobre*/
