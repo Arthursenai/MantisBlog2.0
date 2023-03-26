@@ -140,6 +140,11 @@ ul li:hover ul.dropdown{
 .imgc{
     width: 180px;
     height: 160px;
+    border-radius: 10px;
+    border-right-style: solid;
+    border-right-color: purple;
+    border-right-width: 5px;
+    margin-right: 20%;
 }
 .articles{
     display: flex;
