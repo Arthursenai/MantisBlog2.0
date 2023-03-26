@@ -142,7 +142,7 @@ ul li:hover ul.dropdown{
     margin: 2%;
     border-left-style: solid;
     border-left-color:transparent;
-   height: 400px;
+   height: 450px;
  
  
   
@@ -152,15 +152,15 @@ ul li:hover ul.dropdown{
         margin: auto;
     border-radius: 10px;
     width: 90%;
-    height: 400px;
+    height: 450px;
     padding-top: px;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
     }
     
-        /*Estilização do tamanho e posicionamento das imagens das notícias*/
+     /*Estilização do tamanho e posicionamento das imagens das notícias*/
     .imgnot{
-        width:150px;
-        height: 100px;
+        width:250px;
+        height: 150px;
         padding-right: 5px;
         border-radius: 10px;
     }
@@ -169,17 +169,7 @@ ul li:hover ul.dropdown{
         transform: scale(1.1);
         transition: transform 0.5s ease-in-out;
     }
-    /*Estilização do tamanho e posicionamento das imagens das notícias*/
-    .imgnot2{
-        width:150px;
-        height: 100px;
-        padding-right: 5px;
-    }
-    /*Estilização do tamanho quando se passa o cursor sobre o elemento*/
-    .imgnot2:hover{
-        transform: scale(1.1);
-        transition: transform 0.5s ease-in-out;
-    }
+    
     a{
         display: flex;
         color: white;
@@ -203,8 +193,8 @@ ul li:hover ul.dropdown{
    
            /*Estilização do tamanho e posicionamento das imagens das notícias*/
        .imgnot33{
-           width:150px;
-           height: 100px;
+           width:250px;
+           height: 150px;
            padding-right: 5px;
            border-radius: 10px;
        }
