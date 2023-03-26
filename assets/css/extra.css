@@ -128,7 +128,26 @@ ul li:hover ul.dropdown{
     text-align: justify;
     font-weight: bold;
 }
+/*Estilização do tamanho e posicionamento das ultimas imagens*/
 #not2img{
     height: 270px;
     width: 270px;
+}
+/*Estilização do tamanho do jogo*/
+#gdiv{
+    width: 500px;
+    height: 200px;
+    border: 2px solid white;
+}
+#boneco{
+    width: 40px;
+    height: 50px;
+    background-color: green;
+    position: relative;
+    top: 150px;
+}
+#square{
+    width: 20px;
+    height: 20px;
+    background-color: #6a00e1;
 }
