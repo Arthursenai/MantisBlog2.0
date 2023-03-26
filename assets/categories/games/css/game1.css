@@ -52,12 +52,14 @@ body {
 .titlem {
     margin-left: 22px;
 }
-.titlemat{
+
+.titlemat {
     padding-top: 4%;
     margin-left: 2%;
     margin-right: 32%;
 }
-.marginleft{
+
+.marginleft {
     margin-left: 2%;
     color: white;
 }
@@ -76,24 +78,28 @@ body {
     height: 110px;
     border-radius: 10px;
 }
-.asimg1{
+
+.asimg1 {
     width: 190px;
     height: 120px;
     border-radius: 10px;
 }
-.asimg1:hover{
+
+.asimg1:hover {
     transform: scale(1.1);
     transition: transform 0.5s ease-in-out;
-   }
+}
 
 .asimg:hover {
     transform: scale(1.1);
-        transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
+
 .asimg2:hover {
     transform: scale(1.1);
-        transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
+
 .asimg2 {
     width: 180px;
     height: 120px;
@@ -105,39 +111,81 @@ body {
     margin-bottom: 5%;
 }
 
-.pa{
+.pa {
     margin-left: 10px;
 }
-.pa:hover{
+
+.pa:hover {
     color: blueviolet;
 }
-.aaside{
+
+/*aside mostrando os outros jogos*/
+.aaside {
     text-decoration: none;
     display: flex;
     color: white;
 }
+
 /*alteração no botão*/
 .myButton {
     background: var(--color-gradient);
     background-color: black;
-    border-radius:9px;
-    border:1px solid #c584f3;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
+    border-radius: 9px;
+    border: 1px solid #c584f3;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:16px;
-    font-weight:bold;
-    padding:8px 26px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #9639e3;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 26px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #9639e3;
     margin-left: 2%;
 }
+
 .myButton:hover {
-    background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
-    background-color:#bc80ea;
+    background: linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+    background-color: #bc80ea;
 }
+
 .myButton:active {
-    position:relative;
-    top:1px;
+    position: relative;
+    top: 1px;
+}
+
+/*logo do xbox */
+#logoxbox {
+    margin-left: 2%;
+    border: 1px solid green;
+}
+
+/*logo do playstation*/
+#logops4 {
+    margin-left: 2%;
+    border: 1px solid blue;
+
+}
+
+/* logo da steam */
+#logosteam {
+    margin-left: 2%;
+    border: 1px solid grey;
+
+}
+
+/* palavra para comprar */
+.adquirir {
+    background: var(--color-gradient);
+    background-color: black;
+    border-radius: 9px;
+    width: 22%;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 26px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #9639e3;
+    margin-left: 2%;
 }
