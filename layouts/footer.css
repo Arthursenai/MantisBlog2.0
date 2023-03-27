@@ -33,10 +33,20 @@ p{
     display: flex;
     flex-direction: column;
     padding-top: 1%;
+    margin: 0;
 }
 .as:hover{
     color: purple;
 }
+.asi{
+    display: inline;
+    right: 0;
+}
 .ils{
     width: 10%;
+    padding-left: 70%;
+}
+.ili{
+    width: 10%;
+    padding-left: 70%;
 }
