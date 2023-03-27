@@ -1,0 +1,181 @@
+body {
+    background-color: rgb(5, 5, 5);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    color: white;
+}
+
+#header {
+    width: 100%;
+    margin-top: 0;
+}
+
+#title {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-right: 30%;
+}
+
+#insta {
+    width: 40px;
+    height: 40px;
+    margin-left: 40%;
+    border-radius: 5px;
+}
+
+#a111 {
+    margin-left: 41%;
+}
+
+#footer {
+    width: 100%;
+}
+
+#not1img {
+    margin-left: 5%;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.spa {
+    margin-left: 28%;
+    color: rgb(166, 163, 163);
+}
+
+.notp {
+    margin-left: 2%;
+    margin-right: 32%;
+}
+
+.titlem {
+    margin-left: 22px;
+}
+
+.titlemat {
+    padding-top: 4%;
+}
+
+.divaside {
+    width: 30%;
+    height: 1900px;
+    background-color: rgb(0, 0, 0);
+    right: 0;
+    top: 159px;
+    position: absolute;
+}
+
+.asimg {
+    width: 180px;
+    height: 110px;
+    border-radius: 10px;
+}
+
+.asimg1 {
+    width: 190px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.asimg1:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.asimg:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.asimg2:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.asimg2 {
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.pa {
+    margin-left: 10px;
+}
+
+.pa:hover {
+    color: purple;
+}
+
+.aaside {
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+
+.article1 {
+    display: flex;
+}
+
+.weeknd {
+    display: flex;
+}
+
+.imgnot {
+    margin-left: 2%;
+    width: 60%;
+    height: 400px;
+
+}
+
+.youtube {
+    margin-left: 2%;
+    width: 50%;
+    height: 500px;
+}
+
+/*Comentários*/
+#divcomentarios {
+    width: 100%;
+}
+
+.sectioncomentarios {
+    background-color: black;
+    display: flex;
+    margin: 10px;
+}
+
+.imgdepoimentos {
+    width: 70px;
+    margin: 10px;
+    border: 5px outset purple;
+    height: 70px;
+}
+
+.nomedepoimentos {
+    color: purple;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+#estrelaavaliacao {
+    width: 2%;
+    border: none;
+    margin: 5px;
+}
+
+#nomeeinsta {
+    width: 100%;
+}
+
+#divcomentarios {
+    align-items: center;
+}
+
+#div_bottom {
+    margin-bottom: 10px;
