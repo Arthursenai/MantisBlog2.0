@@ -16,7 +16,9 @@ body {
     text-align: center;
     margin-right: 30%;
 }
-
+#video{
+    margin-left: 5%;
+}
 #insta {
     width: 40px;
     height: 40px;
