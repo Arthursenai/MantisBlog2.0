@@ -231,8 +231,8 @@ p{
 }
 /*estilização da imagens dos comentários*/
 .imgdepoimentos {
-    width: 70px;
-    margin: 10px;
+    width: 30%;
+    margin: 5%;
     border: 5px outset purple;
     height: 70px;
 }
@@ -268,7 +268,4 @@ p{
      margin: 0%;
      padding: 0%;
      text-decoration: none;
-}
-p{
-    margin: 0;
 }
