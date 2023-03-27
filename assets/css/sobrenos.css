@@ -17,12 +17,12 @@ section{
     margin-top: 5%;
 }
 .swiper{
-    width: 900px;
+    width: 75%;
 }
 
 section .card .image{
-    height: 140px;
-    width: 140px;
+    height: 60%;
+    width: 60%;
     border-radius: 100%;
     padding: 4px;
     background: #7d2ae8;
@@ -41,7 +41,7 @@ section .card .image img{
     background: #fff;
     border-radius: 20px;
     margin: 20px 1px;
-    width: 280px;
+    width: 80%;
     
 }
 .card::before{
@@ -91,11 +91,11 @@ section .card .image img{
 
 .name-profession .name{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 90px;
 }
 .name-profession .profession{
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 60px;
 }
 .card .rating{
     display: flex;
