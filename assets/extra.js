@@ -9,7 +9,7 @@ const an= () => {
 
     },500)
 }
-/*
+
 const loop = setInterval(() => {
 
     const squPosition = squ.offsetleft;
@@ -26,13 +26,13 @@ const loop = setInterval(() => {
     }
     
 }, 10);
-*/
+
 var colisao = setInterval( function(){
     var bonecoPosition = parseInt(
         window.getComputedStyle(boneco).getPropertyValue('top')
     )
     var squPosition = parseInt(
-        window.getComputedStyle(squ).getPropertyValue('left')
+        window.getComputedStyle(squ).getPropertyValue('right')
     )
 
     if(squPosition <= 100 && squPosition > 0 && bonecoPosition >=){
