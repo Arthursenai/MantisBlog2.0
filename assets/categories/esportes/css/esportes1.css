@@ -225,16 +225,16 @@ p{
 }
 /*estilização da seção dos comentários*/
 .sectioncomentarios {
-    background-color: black;
+    background-color: rgb(5, 5, 5)9, 18, 18);
     display: flex;
-    margin: 10px;
+    margin-top: 10px;
 }
 /*estilização da imagens dos comentários*/
 .imgdepoimentos {
-    width: 30%;
-    margin: 5%;
+    width: 70px;
+    margin: 10px;
     border: 5px outset purple;
-    height: 70px;
+    height: 70px
 }
 /*estilização dos nomes dos comentários*/
 .nomedepoimentos {
@@ -268,4 +268,13 @@ p{
      margin: 0%;
      padding: 0%;
      text-decoration: none;
+}
+/*estilização dos comentários */
+.poi{
+    margin: 0;
+}
+.ftr{
+    padding-top: 10%;
+    margin: 0;
+   
 }
