@@ -1,35 +1,57 @@
-footer{
-    margin-bottom: -5px;
-    width: 100%;
-    background-color: black;
-    bottom: 0;
-
-}
 
 #container {
     display: flex;
 }
 
 #contato_feedback {
-    display: table-column;
+    
     padding-left: 40px;
     text-align: left;
 }   
 
 body {
     margin: 0;
-    padding: 0;
-    color: white;
-    font-family: sans-serif;
+    bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
-
+#logo_contato_feedback {
+    padding: 0;
+}
 
 #instagram_linktree {
     justify-content: space-between 60px;
-    padding-left: 500px;
+    padding-left: 39%;
+    display: flex;
+    padding-top: 30px;
 }
 
 #p_direitos {
     padding-left: 400px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    background-color:black;
+    height: 80px;
+    
+}
+#a2{
+    margin-left: 10px;
+}
+p{
+    color: white;
+}
+
+.ah:hover{
+    color: purple;
 }
