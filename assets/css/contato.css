@@ -144,7 +144,7 @@ form{
 	position:relative;
 	top:1px;
 }
-/* mudança para dark*/
+/* mudança para dark
 .dark#login_form{
     color: var(--color-light-50);
     background-color: var(--color-dark-100);
@@ -158,5 +158,5 @@ form{
 .dark#login_form .input-field i{
     color: var(--color-light-50s);
 }
-
+*/
 
