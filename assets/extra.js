@@ -35,7 +35,7 @@ var colisao = setInterval( function(){
         window.getComputedStyle(squ).getPropertyValue('left')
     )
 
-    if(squPosition <= 100 && squPosition > 0 && bonecoPosition >=150){
+    if(squPosition <= 100 && squPosition > 0 && bonecoPosition >=){
         squ.style.animation = 'none'
         squ.style.display = 'none'
         alert('dbwid')
