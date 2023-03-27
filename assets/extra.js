@@ -9,7 +9,7 @@ const an= () => {
 
     },500)
 }
-
+/*
 const loop = setInterval(() => {
 
     const squPosition = squ.offsetleft;
@@ -25,7 +25,7 @@ const loop = setInterval(() => {
 
     }
     
-}, 10);
+}, 10);*/
 
 var colisao = setInterval( function(){
     var bonecoPosition = parseInt(
@@ -35,11 +35,10 @@ var colisao = setInterval( function(){
         window.getComputedStyle(squ).getPropertyValue('right')
     )
 
-    if(squPosition <= 100 && squPosition > 0 && bonecoPosition >=){
+    if(squPosition <= 80 && squPosition > 0 && bonecoPosition >=0){
         squ.style.animation = 'none'
         squ.style.display = 'none'
-        alert('dbwid')
+        alert('Você Morreu')
     }
 }, 10)
-
 document.addEventListener('keydown', an);
