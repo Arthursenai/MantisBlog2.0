@@ -3,6 +3,7 @@ body {
     margin: 0%;
     padding: 0;
     width: 100%;
+    height: 100%;
     background-color: rgb(33, 31, 31);
     text-align: center;
 }
@@ -295,6 +296,13 @@ h2 {
     color: white;
     font-size: 30px;
 }
+/*Estilização do tamanho das imagens gerais do site*/
+img {
+    width: 150px;
+    height: 100px;
+    margin-left: 6%;
+}
+
 
 /* Estilização do tamanho e Imagens do slider */
 .carimg {
@@ -306,10 +314,11 @@ h2 {
 }
 
 /*Estilização do tamanho das imagens da seção Veja aqui*/
-.imgp{
-    width: 190px;
-    height: 110px;
-    border-radius: 10px;
+.imgp {
+    width: 260px;
+    height: 180px;
+    margin-left: 1px;
+    border-radius: 9px;
 }
 /*Estilização do tamanho das imagens do veja aqui quando se passa cursor sobre*/
 .imgp:hover{
@@ -318,8 +327,8 @@ h2 {
 }
 /*Estilização do tamanho das imagens da seção Veja aqui*/
 .imgpf{
-    width: 190px;
-    height: 110px;
+    width:260px;
+    height: 180px;
     border-radius: 10px;
 }
 /*Estilização do tamanho das imagens dos filmes do veja aqui quando se passa cursor sobre*/
@@ -334,6 +343,7 @@ h2 {
 /*título das matérias*/
 .p01{
     text-align: left;
+    text-align: justify;
     display: block;
     font-size: 20px;
 }
@@ -382,55 +392,4 @@ h2 {
 input {
     margin: 15px;
     text-align: center;
-}
-
-/*Comentários*/
-#divcomentarios {
-    width: 100%;
-}
-/*estilização da seção dos comentários*/
-.sectioncomentarios {
-    background-color: black;
-    display: flex;
-    margin: 1%;
-}
-/*estilização da imagens dos comentários*/
-.imgdepoimentos {
-    width: 70px;
-    margin: 10px;
-    border: 5px outset purple;
-    height: 70px;
-}
-/*estilização dos nomes dos comentários*/
-.nomedepoimentos {
-    color: purple;
-    text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0;
-}
-/*estilização das imagens das estrelas*/
-#estrelaavaliacao {
-    width: 2%;
-}
-/*estilização da nome e instagram*/
-#nomeeinsta {
-    width: 100%;
-}
-/*estilização do posicionamento dos comentários*/
-#divcomentarios {
-    align-items: center;
-}
-/*estilização do espaçamento de cada comentário*/
-#div_bottom {
-    margin-bottom: 5%;
-}
-/*redirecionamento dos instagrams dos usuários que deram depimentos*/
-.instad{
-     margin: 0%;
-     padding: 0%;
-     text-decoration: none;
-}
-.cm{
-    color: white;
-    margin: 0;
 }
