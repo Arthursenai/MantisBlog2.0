@@ -1,33 +1,33 @@
+/*Estilização do body*/
 body {
     background-color: rgb(5, 5, 5);
     font-family: 'Montserrat', sans-serif;
-    margin: 0%;
     color: white;
 }
-
+/*Estilização do header*/
 #header {
     width: 100%;
     margin-top: 0;
 }
-
+/*Estilização do título*/
 #title {
     font-size: 30px;
     color: white;
     text-align: center;
     margin-right: 30%;
 }
-
+/*Estilização da logo do instagram*/
 #insta {
     width: 40px;
     height: 40px;
     margin-left: 40%;
     border-radius: 5px;
 }
-
+/*id do link do instagram*/
 #a111 {
     margin-left: 41%;
 }
-
+/*Estilização do footer*/
 #footer {
     width: 100%;
 }
@@ -38,11 +38,7 @@ body {
     border-radius: 10px;
 }
 
-.spa {
-    margin-left: 28%;
-    color: rgb(166, 163, 163);
-}
-
+/*Estilização para deixar os textos e imagens*/
 .notp {
     margin-left: 2%;
     margin-right: 37%;
@@ -51,11 +47,7 @@ body {
 .titlem {
     margin-left: 22px;
 }
-
-.titlemat {
-    padding-top: 4%;
-}
-
+/*Estilização do fundo*/
 .divaside {
     width: 30%;
     height: 1900px;
@@ -64,13 +56,13 @@ body {
     top: 159px;
     position: absolute;
 }
-
+/*Estilização da class dos mais lidos aaside*/
 .asimg {
     width: 180px;
     height: 110px;
     border-radius: 10px;
 }
-
+/*Estilização da class imagens do aaside*/ 
 .asimg1 {
     width: 190px;
     height: 120px;
@@ -91,13 +83,13 @@ body {
     transform: scale(1.1);
     transition: transform 0.5s ease-in-out;
 }
-
+/*Estilização da div com as imagens do asside*/
 .asimg2 {
     width: 180px;
     height: 120px;
     border-radius: 10px;
 }
-
+/*Estilização do instagram*/
 .flex {
     display: flex;
     margin-bottom: 5%;
@@ -106,25 +98,25 @@ body {
 .pa {
     margin-left: 10px;
 }
-
+/*Estilização da escrita do aaside*/
 .pa:hover {
     color: purple;
 }
-
+/*Estilização do aaside*/
 .aaside {
     text-decoration: none;
     display: flex;
     color: white;
 }
-
+/*Estilização do article de the weeknd*/
 .article1 {
     display: flex;
 }
-
+/*Estilização da div de the weeknd*/
 .weeknd {
     display: flex;
 }
-
+/*Estilização da imagem da página de detalhamento*/
 .imgnot {
     margin-left: 2%;
     width: 60%;
@@ -136,37 +128,37 @@ body {
 #divcomentarios {
     width: 100%;
 }
-
+/*Estilização da caixa dos depoimentos*/
 .sectioncomentarios {
     background-color: black;
     display: flex;
     margin: 10px;
 }
-
+/*Estilização da foto dos depoimentos*/
 .imgdepoimentos {
     width: 70px;
     margin: 10px;
     border: 5px outset purple;
     height: 70px;
 }
-
+/*Estilização da fonta dos depoimentos*/
 .nomedepoimentos {
     color: purple;
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
 }
-
+/*Estilização das estrelas dos depoimentos*/
 #estrelaavaliacao {
     width: 2%;
     border: none;
     margin: 5px;
 }
-
+/*Estilização dos depoimentos*/
 #nomeeinsta {
     width: 100%;
 }
-
+/*Estilização dos depoimentos*/
 #divcomentarios {
     align-items: center;
 }
@@ -174,17 +166,19 @@ body {
 #div_bottom {
     margin-bottom: 10px;
 }
-
+/*Estilização da capa do youtube*/
 .youtube{
     width: 200px;
     height: 200px;
     margin-left: 2%;
 }
+/*Estilização do símbolo do youtube*/
 .youtube2{
     width: 180px;
     height: 100px;
     margin-left: 2%;
 }
+/*Estilização do youtube*/
 #didi{
     display: flex;
     flex-direction: column;
