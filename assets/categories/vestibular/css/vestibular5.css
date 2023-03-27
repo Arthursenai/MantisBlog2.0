@@ -105,19 +105,18 @@ ul li:hover ul.dropdown{
      radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
 }
 
-
 #header {
     width: 100%;
     margin-top: 0;
 }
-
+/*estilização do titulo*/
 #title {
     font-size: 30px;
     color: white;
     text-align: center;
     margin-right: 30%;
 }
-
+/*estilização da logo do insta*/
 #insta {
     width: 40px;
     height: 40px;
@@ -151,14 +150,12 @@ ul li:hover ul.dropdown{
 }
 
 .titlem {
-    margin-left: 20%;
+    margin-left: 5%;
+    margin-top: 5%;
     font-size: 150%;
-     margin-top: 5%;
-    
 }
-
-#txt2 {
-    margin-left: 30%;
+#txt2{
+  margin-left: 30%;
 }
 
 .divaside {
@@ -175,28 +172,24 @@ ul li:hover ul.dropdown{
     height: 110px;
     border-radius: 10px;
 }
-
-.asimg1 {
+.asimg1{
     width: 190px;
     height: 120px;
     border-radius: 10px;
 }
-
-.asimg1:hover {
+.asimg1:hover{
     transform: scale(1.1);
     transition: transform 0.5s ease-in-out;
-}
+   }
 
 .asimg:hover {
     transform: scale(1.1);
-    transition: transform 0.5s ease-in-out;
+        transition: transform 0.5s ease-in-out;
 }
-
 .asimg2:hover {
     transform: scale(1.1);
-    transition: transform 0.5s ease-in-out;
+        transition: transform 0.5s ease-in-out;
 }
-
 .asimg2 {
     width: 180px;
     height: 120px;
@@ -208,39 +201,50 @@ ul li:hover ul.dropdown{
     margin-bottom: 5%;
 }
 
-.pa {
+.pa{
     margin-left: 10px;
 }
-
-.pa:hover {
+.pa:hover{
     color: blueviolet;
 }
-
-.aaside {
+.aaside{
     text-decoration: none;
     display: flex;
     color: white;
 }
 
-#txt1 {
+#txt1{
     text-align: center;
 }
 
-.img4 {
-
+.img4{
+   
     margin-left: 20%;
 }
 
-#pa1 {
+#pa1{
     font-size: 150%;
-    justify-content: center;
     margin-bottom: 5%;
+}
+
+
+.pa8{
+    margin-left: 32%;
+}
+
+.pa9{
+    margin-left: 27%;
+}
+
+.pa10{
+    margin-left: 32%;
+
 }
 #video{
     margin-left: 10%;
     padding-top: 20px;
 }
-   /*Comentários*/
+/*Comentários*/
 #divcomentarios {
     width: 100%;
 }
@@ -281,4 +285,19 @@ ul li:hover ul.dropdown{
 
 #div_bottom {
     margin-bottom: 10px;}
+
+        .Kuadro{
+            margin-left: 33%;
+        }
+
+        
+          #li0{
+            margin-left: 30%;
+            text-decoration: none;
+            color: white;
+          }
+          #li0:hover {
+            transform: scale(1.1);
+                transition: transform 0.5s ease-in-out;
+        }
 
