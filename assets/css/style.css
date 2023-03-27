@@ -327,8 +327,7 @@ img {
 }
 /*Estilização do tamanho das imagens da seção Veja aqui*/
 .imgpf{
-    width:195px;
-    height: 140;
+    width:100%;
     border-radius: 10px;
 }
 /*Estilização do tamanho das imagens dos filmes do veja aqui quando se passa cursor sobre*/
