@@ -32,7 +32,11 @@ p{
 .as{
     display: flex;
     flex-direction: column;
+    padding-top: 1%;
 }
 .as:hover{
     color: purple;
+}
+.ils{
+    width: 10%;
 }
