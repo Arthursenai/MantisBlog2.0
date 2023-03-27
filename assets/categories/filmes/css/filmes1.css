@@ -9,7 +9,10 @@ body {
     width: 100%;
     margin-top: 0;
 }
-
+#h22{
+    margin-left: 2%;
+    margin-top: 6%;
+}
 #title {
     font-size: 30px;
     color: white;
@@ -47,7 +50,11 @@ body {
     margin-right: 32%;
     font-size: 20px;
 }
-
+#imgg{
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
 .titlem {
     margin-left: 22px;
 }
