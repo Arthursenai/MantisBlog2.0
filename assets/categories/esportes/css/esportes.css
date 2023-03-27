@@ -114,12 +114,12 @@ ul li:hover ul.dropdown{
 /*Estilização da seção de fotos com as bolas dos esportes*/
 #secimg{
     background-color: black;
-    width: 29%;
     margin: auto;
     border: 10px solid purple;
     border-radius: 7px;
     display: flex;
-   
+   width: 40%;
+   padding: 0;
 }
 /*Estilização dos títulos das seções de redirecionamento*/
    h1{
@@ -137,7 +137,6 @@ ul li:hover ul.dropdown{
 /*Article para texto e imagens das matérias que sobrepõe o overlay*/
 .artimg2{
     background-color: black;
-    gap: 40px;
     border-radius: 10px;
     margin: 2%;
     border-left-style: solid;
@@ -220,23 +219,24 @@ ul li:hover ul.dropdown{
 }
 /*Estilização do tamanho e posicionamento das imagens das bolas de futebol*/
 .imgw{
-    width: 170px;
-    height: 170px;}
+    width: 33%;
+    height: 30%;}
     /*Estilização do posicionamento das imagens clicaveís*/
 .aimg{
-    margin: 1px;
+    margin: 1%;
     padding: 0;
     display: flex;
 }
 /*Comentários*/
 #divcomentarios {
     width: 100%;
+    padding-top: 90%;
 }
 /*estilização da seção dos comentários*/
 .sectioncomentarios {
     background-color: black;
     display: flex;
-    margin: 10px;
+    margin: 1%;
 }
 /*estilização da imagens dos comentários*/
 .imgdepoimentos {
@@ -265,14 +265,14 @@ ul li:hover ul.dropdown{
 /*estilização do posicionamento dos comentários*/
 #divcomentarios {
     align-items: center;
-    margin-top: 50px;
 }
 /*estilização do espaçamento de cada comentário*/
 #div_bottom {
-    margin-bottom: 10px;
+    margin-bottom: 5%;
 }
 /*redirecionamento dos instagrams dos usuários que deram depimentos*/
 .instad{
      margin: 0%;
      padding: 0%;
+     text-decoration: none;
 }
