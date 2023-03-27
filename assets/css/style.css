@@ -308,8 +308,8 @@ h2 {
 
 /*Estilização do tamanho das imagens da seção Veja aqui*/
 .imgp {
-    width: 260px;
-    height: 180px;
+    width: 10%;
+    height: 50%;
     margin-left: 1px;
     border-radius: 9px;
 }
