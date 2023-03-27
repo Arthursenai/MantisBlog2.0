@@ -242,6 +242,7 @@ p{
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
+    padding: 0;
 }
 /*estilização das imagens das estrelas*/
 #estrelaavaliacao {
@@ -266,4 +267,8 @@ p{
 .instad{
      margin: 0%;
      padding: 0%;
+     text-decoration: none;
+}
+p{
+    margin: 0;
 }
