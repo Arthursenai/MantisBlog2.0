@@ -128,7 +128,45 @@ ul li:hover ul.dropdown{
     text-align: justify;
     font-weight: bold;
 }
+/*Estilização do tamanho e posicionamento das ultimas imagens*/
 #not2img{
     height: 270px;
     width: 270px;
+}
+/*Estilização do tamanho do jogo*/
+#gdiv{
+    width: 80%;
+    height: 500px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.boneco{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.an{
+    animation: pulo 500ms ease-out;
+}
+.squ{
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+   animation: squ-animation 2s infinite linear;
+}
+@keyframes squ-animation{
+    from
+    {right: 0;}
+    to{right: 100%;}
+}
+
+@keyframes pulo{
+    0%{bottom: 0;}
+    40%{bottom: 180px}
+    50%{bottom: 180px;}
+    60%{bottom: 180px}
+    100%{bottom: 0px;}
 }

@@ -315,9 +315,10 @@ img {
 
 /*Estilização do tamanho das imagens da seção Veja aqui*/
 .imgp {
-    width: 190px;
-    height: 110px;
-    border-radius: 10px;
+    width: 260px;
+    height: 180px;
+    margin-left: 1px;
+    border-radius: 9px;
 }
 /*Estilização do tamanho das imagens do veja aqui quando se passa cursor sobre*/
 .imgp:hover{
@@ -326,8 +327,8 @@ img {
 }
 /*Estilização do tamanho das imagens da seção Veja aqui*/
 .imgpf{
-    width: 190px;
-    height: 110px;
+    width:260px;
+    height: 180px;
     border-radius: 10px;
 }
 /*Estilização do tamanho das imagens dos filmes do veja aqui quando se passa cursor sobre*/
@@ -342,6 +343,7 @@ img {
 /*título das matérias*/
 .p01{
     text-align: left;
+    text-align: justify;
     display: block;
     font-size: 20px;
 }
@@ -391,4 +393,3 @@ input {
     margin: 15px;
     text-align: center;
 }
-
