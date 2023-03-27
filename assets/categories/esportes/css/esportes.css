@@ -141,7 +141,7 @@ ul li:hover ul.dropdown{
     margin: 2%;
     border-left-style: solid;
     border-left-color:transparent;
-   height: 450px;
+   height: 100%;
  
  
   
@@ -151,7 +151,7 @@ ul li:hover ul.dropdown{
         margin: auto;
     border-radius: 10px;
     width: 90%;
-    height: 450px;
+    height: 100%;
     padding-top: px;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
     }
@@ -219,8 +219,6 @@ ul li:hover ul.dropdown{
 }
 /*Estilização do tamanho e posicionamento das imagens das bolas de futebol*/
 .imgw{
-    width: 33%;
-    height: 30%;}
     /*Estilização do posicionamento das imagens clicaveís*/
 .aimg{
     margin: 1%;
@@ -230,13 +228,11 @@ ul li:hover ul.dropdown{
 /*Comentários*/
 #divcomentarios {
     width: 100%;
-    padding-top: 90%;
 }
 /*estilização da seção dos comentários*/
 .sectioncomentarios {
     background-color: black;
     display: flex;
-    margin: 1%;
 }
 /*estilização da imagens dos comentários*/
 .imgdepoimentos {
@@ -265,6 +261,7 @@ ul li:hover ul.dropdown{
 /*estilização do posicionamento dos comentários*/
 #divcomentarios {
     align-items: center;
+
 }
 /*estilização do espaçamento de cada comentário*/
 #div_bottom {
@@ -275,4 +272,11 @@ ul li:hover ul.dropdown{
      margin: 0%;
      padding: 0%;
      text-decoration: none;
+
+    margin-top: 50px;
+}
+/*estilização do espaçamento de cada comentário*/
+#div_bottom {
+    margin-bottom: 10px;
+
 }
