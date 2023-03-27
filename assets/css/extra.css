@@ -135,35 +135,38 @@ ul li:hover ul.dropdown{
 }
 /*Estilização do tamanho do jogo*/
 #gdiv{
-    width: 40%;
-    height: 300px;
+    width: 80%;
+    height: 500px;
     border: 2px solid white;
     position: relative;
     margin: 0 auto;
+    overflow: hidden;
 }
 .boneco{
-    width: 40px;
-    height: 50px;
-    position: relative;
-    top: 150px;
-}
-.an{
-    animation: boneco 500ms infinite;
-}
-.square{
-    width: 80px;
+    width: 150px;
     position: absolute;
     bottom: 0;
-    animation: square 2s infinite linear;
+    left: 0;
 }
-@keyframes square{
-    0%{left: 480px;}
-    100%{left: -40px;}
+.an{
+    animation: pulo 500ms ease-out;
+}
+.squ{
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+   animation: squ-animation 2s infinite linear;
+}
+@keyframes squ-animation{
+    from
+    {right: 0;}
+    to{right: 100%;}
 }
 
-@keyframes boneco{
-    0%{top: 150px;}
-    30%{top: 100px;}
-    70%{top: 100px;}
-    100%{top: 150px;}
+@keyframes pulo{
+    0%{bottom: 0;}
+    40%{bottom: 180px}
+    50%{bottom: 180px;}
+    60%{bottom: 180px}
+    100%{bottom: 0px;}
 }

@@ -1,35 +1,45 @@
 
+const boneco = document.querySelector('.boneco');
+const squ = document.querySelector('.squ');
 
-const boneco = document.querySelector('#boneco');
+const an= () => {
+    boneco.classList.add('an');
+    setTimeout(()=>{
+        boneco.classList.remove('an');
 
-const pulo= () => {
-    boneco.classList.add('pulo');
+    },500)
 }
+/*
+const loop = setInterval(() => {
 
-document.addEventListener('keydown', pulo)
+    const squPosition = squ.offsetleft;
+    const bonecoPosition = +window.getComputedStyle(boneco).bottom.replace('px', '');
 
-function pulo(){
-    if(boneco.classList != 'an'){
-        boneco.classList.add('an')
-}
+    if (squPosition <= 100 && squPosition > 0 && bonecoPosition < 80){
 
+        squ.style.animation = 'none';
+        squ.style.left = `${squPosition}px`;
 
-const pulo()
-setTimeout(function(){
-    boneco.classList.remove('an')
-},500)
-}
+        boneco.style.animation = 'none';
+        boneco.style.bottom = `${bonecoPosition}px`;
 
-var testcoliso = setInterval( function(){
-    var topboneco = parseInt(
+    }
+    
+}, 10);
+*/
+var colisao = setInterval( function(){
+    var bonecoPosition = parseInt(
         window.getComputedStyle(boneco).getPropertyValue('top')
     )
-    var leftsquare = parseInt(
-        window.getComputedStyle(square).getPropertyValue('left')
+    var squPosition = parseInt(
+        window.getComputedStyle(squ).getPropertyValue('left')
     )
 
-    if(leftsquare <20 && leftsquare > 0 && topboneco >= 130){
-        square.style.animation = 'none'
-        square.style.display = 'none'
+    if(squPosition <= 100 && squPosition > 0 && bonecoPosition >=150){
+        squ.style.animation = 'none'
+        squ.style.display = 'none'
+        alert('dbwid')
     }
 }, 10)
+
+document.addEventListener('keydown', an);
