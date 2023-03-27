@@ -40,7 +40,7 @@ section .card .image img{
     position: relative;
     background: #fff;
     border-radius: 20px;
-    margin: 20px 2px;
+    margin: 20px 1px;
     width: 280px;
     
 }
