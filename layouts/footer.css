@@ -1,57 +1,38 @@
-
-#container {
-    display: flex;
-}
-
-#contato_feedback {
-    
-    padding-left: 40px;
-    text-align: left;
-}   
-
 body {
-    margin: 0;
-    bottom: 0;
+   margin: 0;
+   padding: 0;
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     
 }
-
-#logo_contato_feedback {
-    padding: 0;
+#imh{
+    left: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 5%;
 }
-
-#instagram_linktree {
-    justify-content: space-between 60px;
-    padding-left: 39%;
+.foot{
     display: flex;
-    padding-top: 30px;
-}
-
-#p_direitos {
-    padding-left: 400px;
-    text-align: left;
 }
 a{
     text-decoration: none;
     color: white;
 }
 footer{
-    bottom: 0;
-    position: fixed;
     width: 100%;
-    text-align: center;
-    left: 0;
+    bottom: 0;
     background-color:black;
-    height: 80px;
-    
-}
-#a2{
-    margin-left: 10px;
+    padding: 0;
 }
 p{
     color: white;
-}
+   margin: auto;
 
-.ah:hover{
+}
+.as{
+    display: flex;
+    flex-direction: column;
+}
+.as:hover{
     color: purple;
 }
