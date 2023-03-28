@@ -234,7 +234,7 @@ a {
 }
 /*Estilização da cor das notícias quando se passa cursor sobre*/
 .secp:hover {
-    color: purple
+    color:orchid;
 }
 /*Estilização dos direitos autorais das imagens*/
 span {
@@ -338,7 +338,7 @@ img {
 }
 /*Estilização da cor quando se passa o cursor sobre*/
 .p01:hover{
-    color: purple;
+    color: orchid;
 }
 /*título das matérias*/
 .p01{
