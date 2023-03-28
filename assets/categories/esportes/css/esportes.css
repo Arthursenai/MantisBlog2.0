@@ -185,7 +185,7 @@ ul li:hover ul.dropdown{
         display: block;
         opacity: 0.8;
         margin-left: 2%;
-        font-size: 10px;
+        font-size: 15px;
         color: white;
         margin-top: -10px;
     }
@@ -219,6 +219,8 @@ ul li:hover ul.dropdown{
 }
 /*Estilização do tamanho e posicionamento das imagens das bolas de futebol*/
 .imgw{
+    width: 30%;
+}
     /*Estilização do posicionamento das imagens clicaveís*/
 .aimg{
     margin: 1%;
