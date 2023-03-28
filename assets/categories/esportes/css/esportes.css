@@ -178,7 +178,7 @@ ul li:hover ul.dropdown{
     }
     /*Estilização da cor quando se passa o cursor sobre o elemento*/
     .secp:hover{
-        color: purple;
+        color: orchid;
     }
     /*Estilização dos direitos autorais das imagens*/
     span{
@@ -211,7 +211,7 @@ ul li:hover ul.dropdown{
     }
     /*Estilização da cor quando se passa o cursor sobre o elemento*/
     .secp33:hover{
-        color: purple;
+        color: orchid;
     }
 #footer{
     width: 100%;
