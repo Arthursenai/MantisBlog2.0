@@ -5,22 +5,7 @@ textstart = document.querySelector('text-start');
 
 
 
-
-/*================ Função Start ===================*/ 
-
-const start= () => {
-
-    document.getElementById("text-start").style.color = "white";
-
-    squ.classList.add('squ-animation');
-
-    boneco.src = '/assets/images/mantis animation.gif';
-    boneco.style.width = '400px';
-    document.addEventListener('keydown', start);
-}
-
-document.addEventListener('keydown', start);
-/*
+/*variavel para a adição e remoção do pulo do personagem*/ 
 const an= () => {
     boneco.classList.add('an');
     setTimeout(()=>{
@@ -29,8 +14,9 @@ const an= () => {
 
     },500)
 }
-/*document.addEventListener('keydown', an);*/
-/*
+/*ação de evento ao pressionar qualquer tecla do teclado*/
+document.addEventListener('keydown', an);
+/*variavel criada com intervalos e posições para determinar o alcance do obstacúlo*/
 var colisao = setInterval( function(){
     var bonecoPosition = parseInt(
         window.getComputedStyle(boneco).getPropertyValue('top')
@@ -38,12 +24,12 @@ var colisao = setInterval( function(){
     var squPosition = parseInt(
         window.getComputedStyle(squ).getPropertyValue('left')
     )
-
+/*Se a posição estiver nessas condições o jogo ira acabar*/
     if(squPosition <= 7 && squPosition > 0 && bonecoPosition >=180){
         squ.style.animation = 'none'
         squ.style.display = 'none'
         boneco.style.display = 'none'
-        document.getElementById("text-start").innerHTML="<strong>GAME OVER</strong>";  
+        document.getElementById("text-start").innerHTML="<strong>GAME OVER PRESSIONE F5 PARA RECOMEÇAR</strong>";  
     }
 }, 10)
 
