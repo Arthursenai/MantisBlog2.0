@@ -117,13 +117,11 @@ ul li:hover ul.dropdown{
 /*Para preenchimento*/
 #secimg {
     background-color: black;
-    gap: 40px;
     padding-bottom: 20px;
     border-radius: 10px;
     margin: 1%;
     border-left-style: solid;
     border-left-color: transparent;
-    border-left-width: 30px;
 
 }
 /*overlay da borda gradiente*/
@@ -149,8 +147,11 @@ h1 {
 #hp1 {
     margin-top: 55px;
     margin-bottom: 90px;
-    color: #6a00e1;
+    color: #ffffff;
     font-weight: bold;
+    font-size: 45px;
+    text-shadow: -1px 0 purple, 0 2px purple,
+        3px 0 purple, 0 -1px purple;
 
 }
 /*Estilização das manchetes nóticias*/
@@ -202,8 +203,8 @@ h1 {
 }
 /*Estilização do tamanho e posicionamento das imagens do mais visualizados e bombastico*/
 .imgnot {
-    width: 150px;
-    height: 100px;
+    width: 185px;
+    height: 135px;
     padding-right: 5px;
     border-radius: 10px;
     transition: transform 0.5s ease;
@@ -228,16 +229,17 @@ a {
 /*Estilização das manchetes nóticias*/
 .secp{
     text-align: justify;
-    margin: 0%;
+    margin: 1%;
+    font-size: 20px;
 }
 /*Estilização da cor das notícias quando se passa cursor sobre*/
 .secp:hover {
-    color: purple
+    color:orchid;
 }
 /*Estilização dos direitos autorais das imagens*/
 span {
     opacity: 0.8;
-    font-size: 10px;
+    font-size: 12px;
     color: white;
     margin: 0;
     padding-right: 62%;
@@ -292,6 +294,7 @@ span {
 /*Estilização dos títulos da seção Veja aqui*/
 h2 {
     color: white;
+    font-size: 30px;
 }
 /*Estilização do tamanho das imagens gerais do site*/
 img {
@@ -306,32 +309,43 @@ img {
     width: 900px;
     height: 500px;
     border-style: solid;
-    border-color: rgb(123, 3, 202);
+    border-color: purple;
     margin: auto;
 }
 
 /*Estilização do tamanho das imagens da seção Veja aqui*/
 .imgp {
-    width: 175px;
-    height: 190px;
+    width: 260px;
+    height: 180px;
     margin-left: 1px;
     border-radius: 9px;
 }
+/*Estilização do tamanho das imagens do veja aqui quando se passa cursor sobre*/
+.imgp:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
 /*Estilização do tamanho das imagens da seção Veja aqui*/
 .imgpf{
-    width:175px;
-    height: 210px;
+    width:260px;
+    height: 180px;
     border-radius: 10px;
+}
+/*Estilização do tamanho das imagens dos filmes do veja aqui quando se passa cursor sobre*/
+.imgpf:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
 }
 /*Estilização da cor quando se passa o cursor sobre*/
 .p01:hover{
-    color: #6a00e1;
+    color: orchid;
 }
 /*título das matérias*/
 .p01{
     text-align: left;
     text-align: justify;
     display: block;
+    font-size: 20px;
 }
 /*Class para esconder imagens que não estão em estande*/
 .carrossel{
@@ -379,4 +393,3 @@ input {
     margin: 15px;
     text-align: center;
 }
-
