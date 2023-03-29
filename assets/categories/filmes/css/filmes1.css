@@ -9,9 +9,9 @@ body {
     width: 100%;
     margin-top: 0;
 }
-#h22{
-    margin-left: 2%;
-    margin-top: 6%;
+.notp{
+    text-decoration: none;
+    color: white;
 }
 #title {
     font-size: 30px;
@@ -39,21 +39,42 @@ body {
     width: 60%;
     border-radius: 10px;
 }
-
+#ps0{
+    margin-left: 3%;
+}
 .spa {
     margin-left: 28%;
     color: rgb(166, 163, 163);
 }
-
+#h22{
+    margin-left: 3%;
+    text-decoration: none;
+    color: white;
+    margin-top: 7%;
+}
 .notp {
     margin-left: 2%;
     margin-right: 32%;
     font-size: 20px;
 }
-#imgg{
-    width: 50%;
-    border-radius: 10px;
-    margin-left: 5%;
+#estrelaavaliacao{
+    height: 2%;
+    width: 2%;
+    margin-left: 2%;
+}
+#nomeeinsta{
+    display: flex;
+}
+.imgdepoimentos{
+    border-radius: 100%;
+    height: 5%;
+    width: 5%;
+}
+.imgdepoimentos1{
+    margin-top: 8%;
+    border-radius: 100%;
+    height: 5%;
+    width: 5%;
 }
 .titlem {
     margin-left: 22px;
@@ -70,7 +91,12 @@ body {
     top: 159px;
     position: absolute;
 }
-
+#imgg{
+    height: 50%;
+    width: 50%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
 .asimg {
     width: 180px;
     height: 110px;
