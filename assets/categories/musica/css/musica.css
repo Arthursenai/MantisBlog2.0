@@ -192,3 +192,7 @@ span {
     padding: 0;
     border-radius: 5px;
 }
+#footer{
+    margin-bottom: -5px;
+    width: 100%;
+}
