@@ -129,10 +129,10 @@ ul li:hover ul.dropdown{
     margin-left: 41%;
 }
 
-#footer {
+#footer{
     width: 100%;
+    margin-bottom: -5px;
 }
-
 #not1img {
     margin-left: 5%;
     width: 60%;
