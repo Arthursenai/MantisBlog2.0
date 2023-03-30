@@ -1,6 +1,6 @@
 /*Estilização do corpo e estrutura inteira do site*/
 body {
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(7,7,7);
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
     color: white;
@@ -108,10 +108,11 @@ ul li:hover ul.dropdown{
 /*Estilização do autor da notícia*/
 p{
     margin-left: 2%;
+    font-size: 20px;
 }
 /*Estilização do Título principal do site*/
 #title {
-    font-size: 30px;
+    font-size: 50px;
     color: white;
     margin-left: 2%;
     font-weight: bold;
@@ -125,7 +126,7 @@ p{
 }
 /*Estilização do redirecionamento do instagram do autor do texto*/
 #a111 {
-    margin-left: 41%;
+    margin-left: 35%;
 }
 /*Estilização do rodapé do site*/
 #footer {
@@ -146,21 +147,23 @@ p{
 /*Estilização do tamanho e posicionamento dos paragráfos da matéria*/
 .notp {
     margin-left: 2%;
-    margin-right: 32%;
+    margin-right: 35%;
     font-size: 20px;
     text-align: justify;
 }
-/*Estilização dos direitos autorais das imagens*/
+/*Estilização do subtítulo da matéria*/
 .titlemat{
     padding-top: 4%;
     margin-left: 2%;
+    font-size: 25px;
 }
 /*Estilização do posicionamento do aside*/
 .divaside {
     width: 30%;
     right: 0;
-    top: 159px;
+    top: 20%;
     position: absolute;
+
 }
 /*Estilização das imagens do aside*/
 .asimg {
@@ -202,11 +205,12 @@ p{
 }
 /*Estilização dos títulos do aside*/
 .pa{
-    margin-left: 10px;
+    margin-left: 2%;
+    font-size: 20px;
 }
 /*Estilização das cores dos títulos do aside quando se passa o cursor sobre os elementos*/
 .pa:hover{
-    color: blueviolet;
+    color: orchid;
 }
 /*display flex das imagens e textos do aside A*/
 .aaside{
@@ -218,4 +222,64 @@ p{
 .video{
     margin-left: 2%;
     width: 60%;
+}
+/*Comentários*/
+#divcomentarios {
+    width: 100%;
+}
+/*estilização da seção dos comentários*/
+.sectioncomentarios {
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    margin-top: 10px;
+}
+/*estilização da imagens dos comentários*/
+.imgdepoimentos {
+    width: 70px;
+    margin: 10px;
+    border: 5px outset purple;
+    height: 70px
+}
+/*estilização dos nomes dos comentários*/
+.nomedepoimentos {
+    color: purple;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*estilização das imagens das estrelas*/
+#estrelaavaliacao {
+    width: 2%;
+    border: none;
+    margin: 5px;
+}
+/*estilização da nome e instagram*/
+#nomeeinsta {
+    width: 100%;
+}
+/*estilização do posicionamento dos comentários*/
+#divcomentarios {
+    align-items: center;
+    margin-top: 50px;
+}
+/*estilização do espaçamento de cada comentário*/
+#div_bottom {
+    margin-bottom: 10px;
+}
+/*redirecionamento dos instagrams dos usuários que deram depimentos*/
+.instad{
+     margin: 0%;
+     padding: 0%;
+     text-decoration: none;
+}
+/*estilização dos comentários */
+.poi{
+    margin: 0;
+}
+/*para margin top*/
+.ftr{
+    padding-top: 10%;
+    margin: 0;
+   
 }
