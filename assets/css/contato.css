@@ -256,6 +256,10 @@ form{
 p {
     color: white;
 }
+#footerif{
+    margin-bottom: -5px;
+    bottom: 0;
+}
 /* mudança para dark
 .dark#login_form{
     color: var(--color-light-50);
@@ -270,8 +274,6 @@ p {
 .dark#login_form .input-field i{
     color: var(--color-light-50s);
 }
-#footerif{
-    margin-bottom: -5px;
-}*/
+*/
 
 
