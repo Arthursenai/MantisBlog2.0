@@ -15,7 +15,9 @@ body {
     font-size: 30px;
     color: white;
 }
-
+#footer{
+    margin-bottom: -5px;
+}
 #secimg {
     background-color: black;
     gap: 40px;

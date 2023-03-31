@@ -25,7 +25,9 @@ body {
     margin-left: 40%;
     border-radius: 5px;
 }
-
+#footer{
+    margin-bottom: -5px;
+}
 #a111 {
     margin-left: 41%;
 }
