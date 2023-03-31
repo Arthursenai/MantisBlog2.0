@@ -14,9 +14,14 @@
     --color-gradient:linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
 
 }
-body{
+
+* {
     margin: 0;
     padding: 0;
+}
+
+body{
+
     color: #f8fafc;
     background: var(--color-gradient);
 }
@@ -50,8 +55,7 @@ form{
     /*gap utilizado para igualar os espaçamentos */
     gap: 30px;
     box-shadow: 5px 5px 8px  rgba( 0, 0, 0,0.336) ;
-    height: fit-content;
-
+    margin-top: 50px;
 
 }
 
@@ -65,11 +69,11 @@ form{
 #form_header h1{
     font-size: 30px;
     /* position relative para fazer a criação da linha de baixo do h1*/
-    position:relative
+
 }
 /*mudança da linha de baixo e tamanho*/
 #form_header h1::before{
-    position: absolute;
+
     content: '';
     width: 40%;
     background-color:var(--color-purple-50) ;
@@ -155,7 +159,7 @@ margin-bottom: -5px;
 
 
 form textarea {
-    padding: 5px 15px;
+    padding: 5px 15px;/*  */
     border: 1px solid #5c5c5c;
     border-radius: 3px;
    border: transparent;
@@ -207,7 +211,7 @@ nav li{
 /*Estilização do posicionamento dos items header*/
 ul li{
     display: inline-block;
-    position: relative;
+ 
 }
 /*Estilização dos items redirecionaveis do header*/
 ul li a{
@@ -266,4 +270,17 @@ ul li:hover ul.dropdown{
     border-radius: 10px;
     background-image:
      radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+}
+
+
+footer iframe {
+    margin-bottom: -5px;
+ 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
 }
