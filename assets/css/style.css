@@ -393,3 +393,14 @@ input {
     margin: 15px;
     text-align: center;
 }
+@media (max-width:600px) {
+    .display{
+        display: inline;
+    }
+    .container002{
+        display: inline;
+    }
+    a{
+        justify-content: center;
+    }
+}
